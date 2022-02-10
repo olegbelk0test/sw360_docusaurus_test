@@ -363,7 +363,7 @@ Promotions Tab consists of the player rewards statistics:
 |-|-|-|
 | 1 | **☑ The player wants to receive promotion** | Select this checkbox if the player wants to receive promotions. |
 | 2 | **☑ The player is bonus abuser** | Select this checkbox if the player plays games only from the bonus money, not the cash money.<p>This is the note to the support team not to give him additional bonuses.</p> |
-| 3 | **[+ Add Reward]** button | Click to open **Reward Selection Pop-Up**:<p>Select one reward with the corresponding checkbox, enter the amount and the comment and click the **[Add]** button to add the reward to the player, or click [Cancel] to close the pop-up:</p><p>![add_reward_promo.gif](https://i.imgur.com/ispoMa8.gif)</p><p>The SW360 superadmin must approve the reward at the [Manual Adjustments Section](manual_adjustments.md).</p><p>The rewards are taken from the [Rewards Section](/docs/engagement/rewards.md).</p> |
+| 3 | **[+ Add Reward]** button | Click to open **Reward Selection Pop-Up**:<p>Select one reward with the corresponding checkbox, enter the amount and the comment and click the **[Add]** button to add the reward to the player, or click [Cancel] to close the pop-up:</p><p>![add_reward_promo.gif](https://i.imgur.com/ispoMa8.gif)</p><p>The SW360 superadmin must approve the reward at the [Manual Adjustments Section](manual_adjustments.md).</p><p>The rewards are taken from the [Rewards Section](/engagement/rewards.md).</p> |
 | 4 | **Active Promotions Table** | The table with the list of the rewards the player can get. |
 | 5 | **Past Promotions Table** | The table with the list of the rewards the player has received. |
 
