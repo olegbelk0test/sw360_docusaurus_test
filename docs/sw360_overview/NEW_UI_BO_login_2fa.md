@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Welcome Screen
 
-The Backoffice site is located under the [url](paste_url_here).
+The Backoffice site is located under the [url].
 
 You will see the Welcome Screen on open:
 
@@ -63,7 +63,7 @@ Click the **"Sign in"** link to open the Create an Account window:
 | 2 | **Email** | Enter your email. |
 | 3 | **Password** | Create your password. The password must be at least 8 symbols, with uppercase/innercase letters, and at least one number. |
 | 4 | **Retype Password** | Enter the password again. |
-| 5 | **☑ Terms & Conditions** | Select this checkbox if you agree to the Backoffice [Terms & Conditions](link). |
+| 5 | **☑ Terms & Conditions** | Select this checkbox if you agree to the Backoffice [Terms & Conditions]. |
 | 6 | **Signup Button** | Click to finish the registration process and create the account. |
 | 7 | **Sign In** | Click this link to [log in](#welcome-screen) with existed credentials. |
 
