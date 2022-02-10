@@ -8,7 +8,7 @@ Flow is the sequence of actions to create some activity on the casino's site, fo
 
 The operators can create different Flow Categories and manage Flows within categories using the back office.
 
-The Flows Tab is located at the site's left menu bar:
+The Flows Tab locates at the site's left menu bar:
 
 ![flow_categories](https://i.imgur.com/LS3Jjc4.png)
 
