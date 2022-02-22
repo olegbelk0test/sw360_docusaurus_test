@@ -1,69 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Players Tab & Player Profile
+# Player Profile
 
-## Players Tab
-
-Back Office **Players** tab consists of the list of all the players of the site:
-
-![bo_players_tab](https://i.imgur.com/lYY649h.png)
-
-There are Filters and Presets buttons on the top of the page, along with the universal search bar.
-Below there is a table with the list of the players with columns as their attributes:
-
-| Field | Description |
-|-|-|
-| **Full Name** | The First and Last Name of the player. |
-| **Email** | The email of the player.<p>The icon to the left shows if the email is verified:</p><p>✔ &mdash; verified</p><p>❌ &mdash; unverified.</p> |
-| **Phone** | The phone number of the player.<p>The icon to the left shows if the phone is verified:</p><p>✔ &mdash; verified</p><p>❌ &mdash; unverified.</p> |
-| **Personal Number** | The unique Player Personal Number in the system. Hover on and click the icon to the right to copy the personal number to the clipboard<p>Click to open the selected [Player Profile](#player-profile-page-overview).</p> |
-| **Account Status** | The [status](#player-statuses) of the player account. |
-| **Affiliate ID** | The ID of the player marketing code. |
-| **Country** | The flag of the country of origin of the player.<p>Hover on to show the country name.</p> |
-| **User Name** | The User Name used for the login of the player. |
-| **Registered** | The date and time of the registration of the player. The format is yyyy-mm-dd hh:mm:ss. |
-| **Last login date** | The date and time of the last login of the player. The format is yyyy-mm-dd hh:mm:ss. |
-| **Platform** | The current platform of the player. Hover on to show the platform name. |
-| **Currency** | The main currency of the player. |
-| **Total deposit** | The total amount of deposited money of the player, calculated by the formula: player deposits + deposit credit adjustments + converted to promo. Deposit debit adjustment won't affect to total deposits amount. This counter is never reset. |
-| **Total withdrawals** | The total amount of withdrawal money of the player, calculated by the formula: player withdrawals + withdraw debit adjustments - canceled withdrawals - net fees. This counter is never reset. |
-| **OS** | The operating system of the player. Hover on to show the OS name. |
-| **Pending documents** | Does the player have pending documents &mdash; *true* or *false*. |
-| **SSN** | The unique Social Security Number of the player. |
-| **National ID Number** | The National ID Number of the player. |
-| **Total Number of Deposits** | The number of the total deposits of the player. |
-| **Last Login IP** | The IP of the last login of the player. |
-| **Register IP** | The IP of the registration of the player. |
-| **Document Address** | The address of the player according to the provided documents. |
-| **Birthdate** | The date of birth of the player. The format is yyyy-mm-dd. |
-| **Gender** | The gender of the player. |
-| **Wants to receive promotions** | Does the player want to receive promotions &mdash; true or false. |
-| **Affiliate Code** | The player marketing code. |
-| **Affiliate Token** | The player marketing token. |
-| **Player ID** | The unique player ID. Hover on and click the icon to the right to copy the ID to the clipboard. |
-| **First Deposit Created** | The date and time when the player did the first deposit. The format is yyyy-mm-dd hh:mm:ss. |
-| **Validated All Documents** | Did the player validate all the documents &mdash; *true* or *false*. |
-| **Sub ID** | The Sub ID of the player, used for the traffic tracking. |
-| **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and select [Change Status](#change-status-pop-up) or Edit (opens [Player Profile](#player-profile-page-overview)). |
-
-&ast; &mdash; *n/a* if data is not provided.
-
-Each of the player's rows is clickable &mdash; click on any column to open the right pop-up menu with the player's profile quick view:
-
-![pop-up_menu_players](https://i.imgur.com/thJDBzN.png)
-
-Player's profile quick view consists of short information with the player's general info, deposits, balances, personal and address information.
-To open the full-page player profile &mdash; click the "Go to full page" Button at the top right corner of the pop-up or click on the Personal Number at the Players Table:
-
-| Open the full profile from the pop-up | Open the full profile from the Players Table |
-|-|-|
-| ![pop-up_to_full_profile.gif](https://i.imgur.com/t0u8hf1.gif) | ![pn_to_full_profile.gif](https://i.imgur.com/U7UaY0t.gif)|
-
-## Player Profile
-
-### Player Profile Page Overview
+## Player Profile Page Overview
 
 The player profile page consists of the player general information and tabs with the additional player settings and information:
 
@@ -84,9 +25,9 @@ The player profile page consists of the player general information and tabs with
 | 11 | **[Audit tab](#audit-tab)** | Player login and recovery information. |
 | 12 | **[Game Transactions tab](#game-transactions-tab)** | Player gaming information. |
 | 13 | **[Wallet Transactions tab](#wallet-transactions-tab)** | Player wallets transactions information. |
-| 14 | **Full-Screen Button** | Click this button to open any tab on the full screen:<p>![full_screen_profile_tab.gif](https://i.imgur.com/vl1EGpF.gif).</p> |
+| 14 | **Full-Screen Button** | Click this button to open any tab on the full screen:<p>![full_screen_profile_tab.gif](https://i.imgur.com/vl1EGpF.gif)</p> |
 
-#### Player Profile Header
+### Player Profile Header
 
 Player Profile Header consists of quick information about the player:
 
@@ -105,7 +46,7 @@ Player Profile Header consists of quick information about the player:
 | 9 | **Info** | Quick Information about the player:<p>**9.1 Status** &mdash; Current Player's [Account Status](#player-statuses).</p><p>Hover on to show the status description.</p><p>Click the **[Change]** button to [change the player's status](#change-status-pop-up).</p><p>**9.2 Documents** &mdash; Player Documents Status: *Validated* or *Non-Validated*</p><p>**9.3 Email** &mdash; The player's Email with the current status (*validated*/*non-validated*) and the icon to copy email to the clipboard.</p><p>**9.4 Phone** &mdash; The player's Phone Number with the current status (*validated*/*non-validated*) and the icon to copy email to the clipboard.</p><p>**9.5 Total Deposits** &mdash; The Sum of all player's deposits with the number of the deposits in the brackets.</p><p>**9.6 Total Withdrawals** &mdash; The Sum of all player's withdrawals with the number of the deposits in the brackets.</p><p>**9.7 Net Deposit** &mdash; The difference between the Total Deposits and Total Withdrawals.</p> |
 | 10 | **Attributes** | List of Top-5 player attributes, more info at the [Attributes Section](#player-attributes). |
 
-#### Player Notes
+### Player Notes
 
 The Notes are some kind of information regarding the player's account.
 
@@ -113,7 +54,7 @@ To access the notes &mdash; click **Notes** Button at the left upper corner of t
 
 ![open_notes.gif](https://i.imgur.com/EahhWkx.gif)
 
-##### Notes Overview
+#### Notes Overview
 
 * [Notes Priority](#notes-priority)
 * [View All Notes](#view-all-notes)
@@ -122,7 +63,7 @@ To access the notes &mdash; click **Notes** Button at the left upper corner of t
 * [Add New Note](#add-new-note)
 * [High Priority Notes Pop-up](#high-priority-notes-pop-up)
 
-###### Notes Priority
+##### Notes Priority
 
 The notes can be of different priority, which is shown by the color of the Notes button:
 | Color | Description / Priority | View |
@@ -132,7 +73,7 @@ The notes can be of different priority, which is shown by the color of the Notes
 | Green | Medium Priority | ![medium_notes](https://i.imgur.com/T9JmGxa.png) |
 | Red | High Priority | ![high_notes](https://i.imgur.com/StnKThl.png) |
 
-###### View All Notes
+##### View All Notes
 
 To view all the player's Notes, simply click Notes Button &mdash; the Notes will open in the sidebar:
 
@@ -142,13 +83,13 @@ To view all the player's Notes, simply click Notes Button &mdash; the Notes will
   ![notes_sidebar_without_notes](https://i.imgur.com/9hcwZ2t.png)
 * Notes sidebar opens automatically when the operator opens the player's profile if the player has new high priority notes.
 
-###### Notes Sidebar
+##### Notes Sidebar
 
 | Image | Description |
 |-|-|
 | ![notes_sidebar](https://i.imgur.com/q1iyBDe.png) | 1. **Create Note** &mdash; click this button to [add a new note](#add-new-note).<p>2. **One Note**:</p><p>2.1 [**Note Priority**](#notes-priority),</p><p>2.2 **Created By** &mdash; which operator and when created the note,</p><p>2.3 **Note Text** &mdash; click to [view full note](#view-one-note).</p><p>3. **Recycle Bin** &mdash; hover on to the upper left corner of the note and click to delete the note.</p> |
 
-###### View One Note
+##### View One Note
 
 Click on the Note Text to open the Note in Pop-up Window and see the Note's full text:
 
@@ -156,7 +97,7 @@ Click on the Note Text to open the Note in Pop-up Window and see the Note's full
 
 Click the **[Delete the Note]** Button to delete the opened note.
 
-###### Add New Note
+##### Add New Note
 
 Click the **[Create Note]** Button to add the new note to the player. The New Note Pop-up will open:
 
@@ -164,7 +105,7 @@ Click the **[Create Note]** Button to add the new note to the player. The New No
 |-|-|
 | ![create_note_popup](https://i.imgur.com/aGqSDNp.png) | 1. **Select Priority** &mdash; choose [Note Priority](#notes-priority).<p>2. **Note text** &mdash; enter note text.</p><p>3. **Cancel** &mdash; close pop-up without saving changes.</p><p>4. **Save** &mdash; click to save and create a new note.</p> |
 
-###### High Priority Notes Pop-up
+##### High Priority Notes Pop-up
 
 ![hpnp](https://i.imgur.com/uJv23GB.png)
 
@@ -172,7 +113,7 @@ This pop-up opens one time after the operator opens the player profile and wants
 It is the "stopper" for the operator with the ability to **Make changes anyway** (1) or **Open Player's Notes** (2) before making any changes.
 If the operator opens another player profile and then returns to the player with High Priority Notes and makes changes &mdash; he will see this pop-up again.
 
-#### Player Statuses
+### Player Statuses
 
 The player can have 5 different statuses:
 
@@ -186,7 +127,7 @@ To change the status &mdash; open the needed player profile and click the [**Cha
 
 ![change_status.gif](https://i.imgur.com/fl4JPTw.gif)
 
-##### Change Status Pop-Up
+#### Change Status Pop-Up
 
 The operator can change the player status in this pop-up regarding the Status Change Flow:
 
@@ -198,7 +139,7 @@ The operator can change the player status in this pop-up regarding the Status Ch
 | **Self-Excluded** | ![excluded](https://i.imgur.com/zFkWv37.png) | 3.1. Click to select the starting time, from which the player's account will be self-excluded. The format is mm/dd/yyyy.<p>Or click the 📅 icon to select the starting time from the date picker.</p><p>3.2. Click to select who excluded the account &mdash; the operator or the player.</p><p>If the player asked the operator to exclude the account &mdash; select *Player* in this field.</p><p>3.3. Click to select the period of exclusion &mdash; it is different for different sites. Usually, it's 6 Months, 1 Year, or 5 Years.</p><p>3.4. Click to choose the reason for the account exclusion.</p><p>3.5. Select this checkbox to automatically set the player's account status back to *Active* when the exclusion period ends.</p><p>3.6. Apply Button &mdash; click to change the status and close the pop-up window.</p> | Self-Excluded ➡ Active, Closed. |
 | **Cool-Off** | ![cool-off](https://i.imgur.com/XQhQciL.png) | 3.1. Click to select starting time, from which the player's account will be on Cool-Off. The format is mm/dd/yyyy.<p>Or click the 📅 icon to select the starting time from the date picker.</p><p>3.2. Click to select who set the account on Cool-Off &mdash; the operator or the player.</p><p>If the player asked the operator to Cool-Off the account &mdash; select *Player* in this field.</p><p>3.3. Click to select the Cool-Off period &mdash; it is different for different sites. Usually, it's 1 Day, 7 Days, 4 Weeks, or 6 Weeks.</p><p>3.4. Click to choose the Cool-Off reason.</p><p>3.5. Apply Button &mdash; click to change the status and close the pop-up window.</p> | Cool-Off ➡ cannot change the status. |
 
-#### General Tab
+### General Tab
 
 General Tab consists of the general information about the player:
 
@@ -218,7 +159,7 @@ General Tab consists of the general information about the player:
   &ast; &mdash; required field.
   &ast;&ast; &mdash; Residential Address is visible if the corresponding checkbox is active at the Site Settings.
 
-#### Communication Tab
+### Communication Tab
 
 Communication Tab consists of the forms used to verify the player Email and/or Phone Number:
 
@@ -232,7 +173,7 @@ Communication Tab consists of the forms used to verify the player Email and/or P
 | 4 | **Save** button | Click to save changes. |
 | 5 | **Verify History Table** | The table with the actions taken to verify the player Email and Phone Number and with the sent codes. |
 
-##### Communication Tab. Verify History Table (5)
+#### Communication Tab. Verify History Table (5)
 
 The operator can see the table with the list of the actions for the player email/phone verification:
 
@@ -252,7 +193,7 @@ The operator can see the table with the list of the actions for the player email
 
 &ast; &mdash; *n/a* if data is not provided.
 
-#### Validation Tab
+### Validation Tab
 
 The Validation Tab consists of the player uploaded documents and personal data:
 
@@ -265,7 +206,7 @@ The Validation Tab consists of 4 sections:
 3. [Public Person (PEP)](#validation-tab-public-person-pep-section) &mdash; manage the player public person information.
 4. [Source of Funds Status](#vadidation-tab-source-of-funds-status) &mdash; verify the player Source of Funds Status.
 
-##### Validation Tab. Player Documents Section
+#### Validation Tab. Player Documents Section
 
 The operator can browse, upload, view, and verify player documents through this section:
 
@@ -285,7 +226,7 @@ The operator can browse, upload, view, and verify player documents through this 
 | 10 | **Discard Changes** | Click to discard entered changes. |
 | 11 | **Save** | Click to apply and save changes. |
 
-### Document Types
+## Document Types
 
 The types of documents to upload to prove the players' information:
 
@@ -314,7 +255,7 @@ The types of documents to upload to prove the players' information:
 * iGaming Contract
 * Deposit Agreement.
 
-##### Validation Tab. Source of Funds (SoF) Section
+#### Validation Tab. Source of Funds (SoF) Section
 
 When the player makes transactions with big sums the operator may be suspicious and ask the player for their Source of Funds.
 This section controls the documents regarding the player's Sources of Funds.
@@ -335,7 +276,7 @@ This section controls the documents regarding the player's Sources of Funds.
 | 10 | **DISCARD CHANGES BUTTON** | Click to discard entered changes. |
 | 11 | **SAVE BUTTON** | Click to save entered changes. |
 
-##### Validation Tab. Public Person (PEP) Section
+#### Validation Tab. Public Person (PEP) Section
 
 This section is for the data of the players, which are celebrities and/or politicians.
 
@@ -353,7 +294,7 @@ This section is for the data of the players, which are celebrities and/or politi
 | 8 | **DISCARD CHANGES BUTTON** | Click to discard entered changes. |
 | 9 | **SAVE BUTTON** | Click to save entered changes. |
 
-#### Promotions Tab
+### Promotions Tab
 
 Promotions Tab consists of the player rewards statistics:
 
@@ -367,7 +308,7 @@ Promotions Tab consists of the player rewards statistics:
 | 4 | **Active Promotions Table** | The table with the list of the rewards the player can get. |
 | 5 | **Past Promotions Table** | The table with the list of the rewards the player has received. |
 
-##### Promotions Tab. Active Promotions Table
+#### Promotions Tab. Active Promotions Table
 
 Active Promotions Table consists of the list of the rewards the player can get.
 
@@ -390,7 +331,7 @@ Active Promotions Table consists of the list of the rewards the player can get.
 | **Release Status** | The reward release status. |
 | **Release Amount** | The money amount the player receives from the promotion. |
 
-##### Promotions Tab. Past Promotions Table
+#### Promotions Tab. Past Promotions Table
 
 Past Promotions Table consists of the list of the rewards the player has received.
 
@@ -413,7 +354,7 @@ Past Promotions Table consists of the list of the rewards the player has receive
 | **Release Cause Action** | *Round* or *Withdrawal*. |
 | **Release Cause ID** | Click to open the player Payment that caused the promotion. Hover on and click the icon to the right to copy the Release Cause ID to the clipboard. |
 
-#### Payments Tab
+### Payments Tab
 
 The Payments Tab consists of the list of all player's deposits and withdrawals:
 
@@ -442,7 +383,7 @@ The Payments Tab consists of the list of all player's deposits and withdrawals:
 ❕ The player can only deposit up to 900 RON without [Documents Validation](#verification-tab-player-documents-section).
 ❕ If the player makes a withdrawal &mdash; their Bonus balance will be canceled.
 
-#### Transaction Details Page TBD
+### Transaction Details Page TBD
 
 Transaction Details Page opens on click on the **Payment ID** or **Trx ID** at the Player Payments Tab.
 
@@ -456,7 +397,7 @@ The Page consists of 3 sections:
 2. **[Transaction Tracking](#transaction-details-page-transaction-tracking)** &mdash; tracking info of the transaction money.
 3. **[Wallet Transactions](#transaction-details-page-wallet-transactions)** &mdash; the player's wallet transactions regarding the viewed transaction.
 
-##### Transaction Details Page. General Transaction Information
+#### Transaction Details Page. General Transaction Information
 
 The operator can view the transaction detailed attributes on this page:
 
@@ -487,7 +428,7 @@ The operator can view the transaction detailed attributes on this page:
 
 ![approve_transaction](https://i.imgur.com/1DlxiJY.gif)
 
-##### Transaction Details Page. Transaction Tracking
+#### Transaction Details Page. Transaction Tracking
 
 The Operator can see the table with the transaction tracking details on this page:
 
@@ -500,7 +441,7 @@ The Operator can see the table with the transaction tracking details on this pag
 | 3 | **Initiator** | Who initiated the transaction: the player or the system. |
 | 4 | **Comment** | JSON of Transaction. |
 
-##### Transaction Details Page. Wallet Transactions
+#### Transaction Details Page. Wallet Transactions
 
 The operator can see the table with the player wallet operations regarding the selected transaction on this page:
 
@@ -516,7 +457,7 @@ The operator can see the table with the player wallet operations regarding the s
 | 6 | **Balance Before** | The player balance before the transaction. |
 | 7 | **Balance After** | The player balance after the transaction. |
 
-#### Statistics Tab
+### Statistics Tab
 
 The Statistics Tab consists of the list of the player overall site statistics:
 
@@ -545,7 +486,7 @@ The Statistics Tab consists of the list of the player overall site statistics:
 | **Bonus Cost/GGR Last Month** | The player's last month Bonus Cost divided by Gross Gaming Revenue Last Month. |
 | **Bonus Cost/Deposit Last Month** | The player's last month Bonus Cost divided by Deposit Last Month. |
 
-#### Responsible Gaming Tab
+### Responsible Gaming Tab
 
 The Responsible Gaming Tab consists of the different limits and blocking actions to the player account:
 
@@ -558,7 +499,7 @@ The Responsible Gaming Tab consists of the different limits and blocking actions
 | 3 | **Deposit Limits** | Click to set the gaming deposit limits to the player. |
 | 4 | **Block Actions** | Click to open the list of blocking actions applied to the player's profile. |
 
-##### Responsible Gaming Tab. Time Limits
+#### Responsible Gaming Tab. Time Limits
 
 The operator can browse and set/delete the limits regarding the player's time spent on the site.
 The time limits can be set on a duration of 1 day (Daily time limit), 1 week (Weekly time limit), or 1 month (Monthly time limit).
@@ -568,7 +509,7 @@ To configure the Limit settings &mdash; enable it by clicking the corresponding 
 
       The limit settings are the same for all of the time limits.
 
-###### Time limit settings
+##### Time limit settings
 
 ![daily_time_limit](https://i.imgur.com/ALtbQ5U.png)
 
@@ -585,7 +526,7 @@ To configure the Limit settings &mdash; enable it by clicking the corresponding 
 | 9 | **DISCARD CHANGES BUTTON** | Click to discard entered changes. |
 | 10 | **SAVE BUTTON** | Click to apply the limit and save entered changes. |
 
-##### Responsible Gaming Tab. Loss Limits
+#### Responsible Gaming Tab. Loss Limits
 
 The operator can browse and set/delete the limits regarding the money the player loses on the site.
 The loss limits can be set on a duration of 1 day (Daily loss limit), 1 week (Weekly loss limit), or 1 month (Monthly loss limit).
@@ -595,7 +536,7 @@ To configure the Limit settings &mdash; enable it by clicking the corresponding 
 
       The limit settings are the same for all of the time limits.
 
-###### Loss limit settings
+#### Loss limit settings
 
 ![daily_loss_limit](https://i.imgur.com/SCZgQyR.png)
 
@@ -613,7 +554,7 @@ To configure the Limit settings &mdash; enable it by clicking the corresponding 
 | 10 | **DISCARD CHANGES BUTTON** | Click to discard entered changes. |
 | 11 | **SAVE BUTTON** | Click to apply the limit and save entered changes. |
 
-##### Responsible Gaming Tab. Deposit Limits
+#### Responsible Gaming Tab. Deposit Limits
 
 The operator can browse and set/delete the limits regarding the money the player deposits on the site.
 The deposit limits can be set on a duration of 1 day (Daily deposit limit), 1 week (Weekly deposit limit), or 1 month (Monthly deposit limit).
@@ -623,7 +564,7 @@ To configure the Limit settings &mdash; enable it by clicking the corresponding 
 
       The limit settings are the same for all of the time limits.
 
-###### Deposit limit settings
+##### Deposit limit settings
 
 ![daily_deposit_limit](https://i.imgur.com/fQVwKRm.png)
 
@@ -641,14 +582,14 @@ To configure the Limit settings &mdash; enable it by clicking the corresponding 
 | 10 | **DISCARD CHANGES BUTTON** | Click to discard entered changes. |
 | 11 | **SAVE BUTTON** | Click to apply the limit and save entered changes. |
 
-##### Responsible Gaming Tab. Block Actions
+#### Responsible Gaming Tab. Block Actions
 
 The operator can block the player's gambling actions on the site.
 To block the action &mdash; click the corresponding radiobutton and click the [Save] button:
 
 ![gif_enable_block_action](https://i.imgur.com/ca6pDzy.gif%)
 
-###### Block Actions Settings
+##### Block Actions Settings
 
 ![block_actions](https://i.imgur.com/UP4Aztg.png)
 
@@ -662,7 +603,7 @@ To block the action &mdash; click the corresponding radiobutton and click the [S
 | 6 | **DISCARD CHANGES BUTTON** | Click to discard entered changes. |
 | 7 | **SAVE BUTTON** | Click to apply the limit and save entered changes. |
 
-#### Game Sessions Tab
+### Game Sessions Tab
 
 **Game Session** is the period when the player logs, plays games and logs off the site.
 The Game Sessions Tab consists of the tables with all of the player games sessions and games played:
@@ -681,13 +622,13 @@ The Game Sessions Tab consists of the tables with all of the player games sessio
 | **Total JP Win** | Total Amount of the JackPot money that the player won during the game session. |
 | **Total JP Contribution** | Total Amount of the money that the player betted to rise the JackPot Amount during the game session. |
 
-#### Attributions Tab
+### Attributions Tab
 
 The Attributions Tab consists of the list of the player's attributions and their values:
 
 ![bo_player_attributions](https://i.imgur.com/6IRJPr3.png)
 
-#### Audit Tab
+### Audit Tab
 
 The Audit Tab consists of the list of the player's actions regarding the login, restoring the password, SMS/Email verification, player status, and actions history:
 
@@ -706,7 +647,7 @@ The Audit Tab consists of the list of the player's actions regarding the login, 
 | 9 | **Player Audit Table** | The table with all of the player's information about verification and limits actions. More info is [below](#audit-tab-player-audit-table). |
 | 10 | **Operation Audit Table** | The table with all of the player's information about the operation with the player profile. More info is [below](#audit-tab-operation-audit-table). |
 
-#### Audit Tab. Login/Logout Table
+### Audit Tab. Login/Logout Table
 
 | Field | Description |
 |-|-|
@@ -721,7 +662,7 @@ The Audit Tab consists of the list of the player's actions regarding the login, 
 
 &ast; &mdash; *n/a* if data is not provided.
 
-#### Audit Tab. Status History Table
+### Audit Tab. Status History Table
 
 | Field | Description |
 |-|-|
@@ -733,7 +674,7 @@ The Audit Tab consists of the list of the player's actions regarding the login, 
 
 &ast; &mdash; *n/a* if data is not provided.
 
-#### Audit Tab. Player Audit Table
+### Audit Tab. Player Audit Table
 
 The operator can filter the table by Date and Action &mdash; select needed values in the fields and click the [**Search**] button to filter.
 
@@ -742,7 +683,7 @@ The operator can filter the table by Date and Action &mdash; select needed value
 | **Created** | The date and time of the action. The format is yyyy-mm-dd hh:mm:ss. |
 | **Action** | The type of the action: *Self Exclusion*, *Self Close*, *Cool Off*, *Verification*, *Name Verified*, *Address Verified*, *Age Verified*, *User Verified*, *Modify Limit*. |
 
-#### Audit Tab. Operation Audit Table
+### Audit Tab. Operation Audit Table
 
 | Field | Description |
 |-|-|
@@ -753,7 +694,7 @@ The operator can filter the table by Date and Action &mdash; select needed value
 | **Request** | The request to the action. Hover on and click the 🔽 button to the right to expand the request. |
 | **Response** | The action response. Hover on and click the 🔽 button to the right to expand the response. |
 
-#### Game Transactions Tab
+### Game Transactions Tab
 
 The Game Transactions Tab consists of the list of the player's information about the game rounds (one spin/bet):
 
@@ -788,7 +729,7 @@ The Game Transactions Tab consists of the list of the player's information about
 
 &ast; &mdash; *n/a* if data is not provided.
 
-#### Wallet Transactions Tab
+### Wallet Transactions Tab
 
 The Wallet Transactions Tab consists of the list of the player's operations with their wallets:
 
