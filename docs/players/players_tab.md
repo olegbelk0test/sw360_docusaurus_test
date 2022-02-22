@@ -16,8 +16,8 @@ Below there is a table with the list of the players with columns as their attrib
 | **Full Name** | The First and Last Name of the player. |
 | **Email** | The email of the player.<p>The icon to the left shows if the email is verified:</p><p>✔ &mdash; verified</p><p>❌ &mdash; unverified.</p> |
 | **Phone** | The phone number of the player.<p>The icon to the left shows if the phone is verified:</p><p>✔ &mdash; verified</p><p>❌ &mdash; unverified.</p> |
-| **Personal Number** | The unique Player Personal Number in the system. Hover on and click the icon to the right to copy the personal number to the clipboard<p>Click to open the selected [Player Profile](/docs/players/player_profile).</p> |
-| **Account Status** | The [status](/docs/players/player_profile#player-statuses) of the player account. |
+| **Personal Number** | The unique Player Personal Number in the system. Hover on and click the icon to the right to copy the personal number to the clipboard<p>Click to open the selected [Player Profile](/docs/players/player-profile/player_profile).</p> |
+| **Account Status** | The [status](/docs/players/player-profile/player_profile#player-statuses) of the player account. |
 | **Affiliate ID** | The ID of the player marketing code. |
 | **Country** | The flag of the country of origin of the player.<p>Hover on to show the country name.</p> |
 | **User Name** | The User Name used for the login of the player. |
@@ -44,7 +44,7 @@ Below there is a table with the list of the players with columns as their attrib
 | **First Deposit Created** | The date and time when the player did the first deposit. The format is yyyy-mm-dd hh:mm:ss. |
 | **Validated All Documents** | Did the player validate all the documents &mdash; *true* or *false*. |
 | **Sub ID** | The Sub ID of the player, used for the traffic tracking. |
-| **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and select [Change Status](/docs/players/player_profile#change-status-pop-up) or Edit (opens [Player Profile](/docs/players/player_profile#player-profile-page-overview)). |
+| **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and select [Change Status](/docs/players/player-profile/player_profile#change-status-pop-up) or Edit (opens [Player Profile](/docs/players/player-profile/player_profile#player-profile-page-overview)). |
 
 &ast; &mdash; *n/a* if data is not provided.
 
