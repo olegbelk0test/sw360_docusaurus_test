@@ -226,7 +226,7 @@ The operator can browse, upload, view, and verify player documents through this 
 | 10 | **Discard Changes** | Click to discard entered changes. |
 | 11 | **Save** | Click to apply and save changes. |
 
-## Document Types
+##### Document Types
 
 The types of documents to upload to prove the players' information:
 
