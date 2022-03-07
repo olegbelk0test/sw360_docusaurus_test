@@ -1,0 +1,25 @@
+---
+sidebar_position: 4
+---
+
+# General Tab
+
+## Profile General Tab
+
+General Tab consists of the general information about the player:
+
+![bo_profile_general_tab](https://i.imgur.com/G8OfwWg.png)
+
+| # | Field | Description |
+|-|-|-|
+| 1 | **Personal Information** | **1.1 Title** &mdash; click to select the title of the player: *Miss*, *Mr.*, *Mrs.*, *Ms.*<p>**1.2 First Name*** &mdash; click to enter/edit the player First Name according to the player documents, max length is 45</p><p>**1.3 Middle Name** &mdash; click to enter/edit the player Middle Name according to the player documents, max length is 45</p><p>**1.4 Gender*** &mdash; click to select the player gender: *Male*, *Female*, *Unknown*</p><p>**1.5 Last Name*** &mdash; click to enter/edit the player Last Name according to the player documents, max length is 45</p><p>**1.6 Birth Date*** &mdash; click to enter/edit player Birth Date according to the player documents. The format is mm/dd/yyyy. Or click the 📅 icon to select the birth date from the date picker.</p> |
+| 2 | **Account Information** | **2.1 Last Login** &mdash; the date and time of the last login of the player (the format is yyyy-mm-dd hh:mm:ss), Country, Browser, and Operation System. Hover on to show the hints<p>**2.2 Nickname*** &mdash; click to enter/edit the player Nickname (used in promotions), max length is 32</p><p>**2.3 Registered Product** &mdash;*Casino*site, or*Sports*site</p><p>**2.4 Registration** &mdash; the date and time of the registration of the player (the format is yyyy-mm-dd hh:mm:ss), and the country of the registration (hover on to show the name of the country)</p><p>**2.5 Username*** &mdash; click to enter/edit the player Username (used to log in), max length is 32</p><p>**2.6 ☑ Test Player** &mdash; select this checkbox is the player if for the QA.</p> |
+| 3 | **Address** | **3.1 Country*** &mdash; click to select the player Country according to the player documents<p>**3.2 Address Line 1*** &mdash; click to enter/edit the player Address details according to the player documents, max length is 255</p><p>**3.3 Citizenship** &mdash; click to select the player Citizenship according to the player documents</p><p>**3.4 City*** &mdash; click to enter/edit the player City according to the player documents, max length is 64</p><p>**3.5 Address Line 2** &mdash; click to enter/edit the player additional Address details according to the player documents, max length is 255</p><p>**3.6 Zip Code*** &mdash; click to enter/edit the player Zip Code according to the player documents, max length is 16.</p> |
+| 4 | **Billing Address** | **4.1 Billing Country*** &mdash; click to select the player Billing Country according to the player documents<p>**4.2 Billing Address Line 1*** &mdash; click to enter/edit the player Billing Address details according to the player documents, max length is 255</p><p>**4.3 Billing Zip Code*** &mdash; click to enter/edit the player Billing Zip Code according to the player documents, max length is 16</p><p>**4.4 Billing City*** &mdash; click to enter/edit the player Billing City according to the player documents, max length is 64</p><p>**4.5 Billing Address Line 2** &mdash; click to enter/edit the player's additional Billing Address details according to the player documents, max length is 255.</p> |
+| 5 | **Residential Address**** | **5.1 Residential Country*** &mdash; click to select the player Residential Country according to the player documents<p>**5.2 Residential Address Line 1*** &mdash; click to enter/edit the player Residential Address details according to the player documents, max length is 255</p><p>**5.3 Residential Zip Code*** &mdash; click to enter/edit the player Residential Zip Code according to the player documents, max length is 16</p><p>**5.4 Residential City*** &mdash; click to enter/edit the player Residential City according to the player documents, max length is 64</p><p>**5.5 Residential Address Line 2** &mdash; click to enter/edit the player additional Residential Address details according to the player documents, max length is 255</p><p>**5.6 Residential Department** &mdash; click to enter/edit the player Residential Department details according to the player documents.</p> |
+| 6 | **Affiliate** | **6.1 My Affiliate ID** &mdash; click to enter the player Affiliate ID<p>**6.2 My Affiliate Token** &mdash; click to enter the player Affiliate Token</p><p>**6.3 Sub ID** &mdash; click to enter the player Sub ID, used in traffic tracking.</p> |
+| 7 | **Discard Changes** button | Click to discard entered changes. |
+| 8 | **Save** button | Click to save changes. |
+
+  &ast; &mdash; required field.<br></br>
+  &ast;&ast; &mdash; Residential Address is visible if the corresponding checkbox is active at the Site Settings.

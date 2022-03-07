@@ -53,8 +53,4 @@ You will see **"✔ 2FA has been reset"** notification near 2FA radiobutton if t
 
 The List of the Roles is different for every casino's site.
 
-Here is the list of the roles for the luck.com site:
-
-| Role | Description |
-|-|-|
-| **** | . |
+Here is [the list of the roles for the luck.com site](https://confluence.skywindgroup.com/pages/viewpage.action?spaceKey=sw360&title=Back+Office.+Users+and+Roles#BackOffice.UsersandRoles-TheListoftheRoles).
