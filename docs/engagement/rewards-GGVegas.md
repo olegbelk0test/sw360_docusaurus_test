@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
-# Rewards Tab
+# Rewards Tab for GGVegas
 
 The Back Office **Rewards** tab is located under **Engagement** Section. It is a table with the list of all created Rewards: Bonuses, Free Spins, and Free Bets:
 
@@ -35,16 +35,15 @@ Click the **[Add Reward]** button and select the needed reward type from the Dro
 
 Click on the **Add Bonus** Button at the **Add Reward** Drop-down menu to open the Add Bonus Page:
 
-![bo_add_bonus_page](https://i.imgur.com/9ezpMHj.png)
+![bo_add_bonus_page](https://i.imgur.com/WpaNI50.png)
 
 | # | Field | Description |
 |-|-|-|
 | 1 | **Name** | Enter Bonus Reward Name. |
 | 2 | **Description** | Enter Bonus Reward Description. |
-| 3 | **General Settings** | Set up general bonus settings:<p>**3.1 Bonus Account** &mdash; choose which Site's Bonus Account to use to credit the bonus to (from the [Bonus Definition Tab](/docs/site/bonus_definition)).</p><p>**3.2 Expiration Days** &mdash; number of **days** when the Bonus Reward expires if the player has triggered it. Empty field means no expiry date.</p> |
-| 4 | **Bonus Grant Settings** | How much of the Bonus is given to the player:<p>**4.1 Bonus Grant Amount Type**:</p><p>&mdash; fixed &mdash; choose if a fixed money amount is given,</p><p>&mdash; percent &mdash; choose if the percent of the player's deposit money is given.</p><p>**4.2 Bonus Grant Amount** &mdash; enter the money amount/percent from the deposit which will be given to the player as bonuses.</p><p>**4.3 Maximum Grant Amount*** &mdash; enter the maximum money amount that can be given to the player (if the amount given to the player is larger than this parameter — the player will receive entered amount).</p><p>*enabled only when type: percent is selected.</p> |
-| 5 | **Wagering Calculation Settings** | Configure how the received money is calculated regarding the player's bets:<p>**5.1 Wagering Type** &mdash; the bet's type which will be used in the turnover calculation: amount (deposit amount) / bonus / both.</p><p>**5.2 Wagering Factor** &mdash; the multiplier for the Bonus Grant Amount. If the player bets the total amount of ("Bonus Grant Amount" * "Wagering Factor") &mdash; he reaches the turnover and can receive Bonus Grant Amount to the cash balance.</p><p>**5.3 Max Wagering Contribution** &mdash; restricts the maximum turnover contribution for the one bet.</p><p>**5.4 Min Amount Threshold** &mdash; when the player lowers his bonus balance to this value during turnover &mdash; his bonus balance will be reset to zero.</p> |
-| 6 | **Bonus Receive Settings** | How the Bonus Grant Amount returns to the player's cash balance when the player reaches turnover:<p>**6.1 Received Bonus Type**:</p><p>&mdash; fixed &mdash; choose if the player will receive a fixed money amount,</p><p>&mdash; percent &mdash; choose if the player will receive a percentage of his bonus balance that would be left after he reaches the turnover.</p><p>**6.2 Received Bonus Amount** &mdash; enter the money amount/percent from the player's bonus balance which will be given to the player as a cash balance.</p><p>**6.3 Maximum Received Amount*** &mdash; enter the maximum money amount the player can receive (if the received bonus amount is larger than this parameter &mdash; the player will receive entered amount).</p><p>*enabled only when type: percent is selected.</p> |
+| 3 | **General Settings** | Set up general bonus settings:<p>**3.1 Bonus Code** &mdash; choose which Site's Bonus Definition to use to credit the bonus to (from the [Bonus Definition Tab](/docs/site/bonus_definition)).</p><p>**3.2 Expiration Days** &mdash; number of **days** when the Bonus Reward expires if the player has triggered it. Empty field means no expiry date.</p> |
+| 4 | **Bonus Grant Settings** | How much of the Bonus is given to the player:<p>**4.1 Amount** (Bonus Grant Amount) &mdash; enter the money amount/percent from the deposit which will be given to the player as bonuses.</p><p>**4.2 Type** (Bonus Grant Amount Type):</p><p>&mdash; fixed &mdash; choose if a fixed money amount is given,</p><p>&mdash; percent &mdash; choose if the percent of the player's deposit money is given.</p><p>**4.3 Max Capping** (Maximum Grant Amount) &mdash; enter the maximum money amount that can be given to the player (if the amount given to the player is larger than this parameter — the player will receive entered amount).</p><p>Max Capping is enabled only when type: percent is selected.</p><p>**4.4 Wagering Type** &mdash; the bet's type which will be used in the turnover calculation: amount (deposit amount) / bonus / both.</p><p>**4.5 Turnover Factor** (Wagering Factor) &mdash; the multiplier for the Bonus Grant Amount. If the player bets the total amount of ("Bonus Grant Amount" * "Wagering Factor") &mdash; he reaches the turnover and can receive Bonus Grant Amount to the cash balance.</p><p>**4.6 Max Wagering Contribution** &mdash; restricts the maximum turnover contribution for the one bet.</p><p>**4.7 Min Amount Threshold** &mdash; when the player lowers his bonus balance to this value during turnover &mdash; his bonus balance will be reset to zero.</p> |
+| 6 | **Bonus Receive Settings** | How the Bonus Grant Amount returns to the player's cash balance when the player reaches turnover:<p>**6.1 Amount** (Received Bonus Amount) &mdash; enter the money amount/percent from the player's bonus balance which will be given to the player as a cash balance.</p><p>**6.2 Return Type** (Received Bonus Type):</p><p>&mdash; fixed &mdash; choose if the player will receive a fixed money amount,</p><p>&mdash; percent &mdash; choose if the player will receive a percentage of his bonus balance that would be left after he reaches the turnover.</p><p>**6.3 Max Capping** (Maximum Received Amount) &mdash; enter the maximum money amount the player can receive (if the received bonus amount is larger than this parameter &mdash; the player will receive entered amount).</p><p>Max Capping is enabled only when type: percent is selected.</p> |
 | 7 | **Cancel** | Click to discard entered changes. |
 | 8 | **Save** | Click to save the Bonus Reward. |
 

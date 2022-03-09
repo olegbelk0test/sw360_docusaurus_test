@@ -8,15 +8,16 @@ sidebar_position: 7
 
 Promotions Tab consists of the player rewards statistics:
 
-![bo_profile_promotions_tab](https://i.imgur.com/T2isrBK.png)
+![bo_profile_promotions_tab](https://i.imgur.com/9CA4WJu.png)
 
 | # | Field | Description |
 |-|-|-|
 | 1 | **☑ The player wants to receive promotion** | Select this checkbox if the player wants to receive promotions. |
 | 2 | **☑ The player is bonus abuser** | Select this checkbox if the player plays games only from the bonus money, not the cash money.<p>This is the note to the support team not to give him additional bonuses.</p> |
-| 3 | **[+ Add Reward]** button | Click to open **Reward Selection Pop-Up**:<p>Select one reward with the corresponding checkbox, enter the amount and the comment and click the **[Add]** button to add the reward to the player, or click [Cancel] to close the pop-up:</p><p>![add_reward_promo.gif](https://i.imgur.com/ispoMa8.gif)</p><p>The SW360 superadmin must approve the reward at the [Manual Adjustments Section](manual_adjustments.md).</p><p>The rewards are taken from the [Rewards Section](/engagement/rewards.md).</p> |
+| 3 | **[+ Add Reward]** button | Click to open **Reward Selection Pop-Up**:<p>Select one reward with the corresponding checkbox, enter the amount (only for the bonus-type reward) and the comment and click the **[Add]** button to add the reward to the player, or click [Cancel] to close the pop-up:</p><p>![add_reward_promo.gif](https://i.imgur.com/ispoMa8.gif)</p><p>Another operator (BO user) must approve the reward at the [Manual Adjustments Section](manual_adjustments.md).</p><p>The rewards are taken from the [Rewards Section](/engagement/rewards.md).</p> |
 | 4 | **Active Promotions Table** | The table with the list of the rewards the player can get. |
 | 5 | **Past Promotions Table** | The table with the list of the rewards the player has received. |
+| 6 | **Pending Promotions Table** | The table with the list of the rewards the player would receive but has not received yet because of server issues or some errors. |
 
 ### Promotions Tab. Active Promotions Table
 
@@ -63,3 +64,17 @@ Past Promotions Table consists of the list of the rewards the player has receive
 | **Release Amount** |The money amount the player has received from the promotion. |
 | **Release Cause Action** | *Round* or *Withdrawal*. |
 | **Release Cause ID** | Click to open the player Payment that caused the promotion. Hover on and click the icon to the right to copy the Release Cause ID to the clipboard. |
+
+### Promotions Tab. Pending Promotions Table
+
+Past Promotions Table consists of the list of the rewards the player would receive but has not received yet because of server issues or some errors.
+
+| Field | Description |
+|-|-|
+| **Created Time** | The Promotion created date and time, server time, the format is yyyy-mm-dd hh:mm:ss. |
+| **Payment ID** | Click to open the Payment connected to the promotion. Hover on and click the icon to the right to copy the Payment ID to the clipboard. |
+| **Bonus Amount** | The amount of Bonus money, Free Spins, or Free Bet given to the player from the promotion<p>*If the **Reward Type** is *Free Bet* then the amount is 1.</p> |
+| **Promotion Type** | *Bonus*, *Free Spins*, or *Free Bet*. |
+| **Promotion Name** | The name of the promotion. Click to open the Promotion details. |
+| **Status** | The promotion status. |
+| **Last Error** | The error description. |
