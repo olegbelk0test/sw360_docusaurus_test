@@ -8,7 +8,7 @@ Back Office **Players** tab consists of the list of all the players of the site:
 
 ![bo_players_tab](https://i.imgur.com/lYY649h.png)
 
-There are Filters and Presets buttons on the top of the page, along with the universal search bar.
+On the top of the page there are Filters and Presets buttons, along with the universal search bar.
 Below there is a table with the list of the players with columns as their attributes:
 
 | Field | Description |
