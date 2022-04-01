@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+sidebar_label: Player Profile Header
 ---
 
 # Profile Header
@@ -8,19 +9,19 @@ sidebar_position: 3
 
 Player Profile Header consists of quick information about the player:
 
-![pp_header](https://i.imgur.com/8sksgPy.png)
+![pp_header](https://i.imgur.com/84T4cUj.png)
 
 | # | Field | Description |
 |-|-|-|
 | 1 | **Back Button** | Click to close the player profile and go back to the [Players Tab](#players-tab). |
 | 2 | **First and Last Name** | Player first and last name. |
 | 3 | **Status** | Player status on the site:<p>Green &mdash; online</p><p>Red &mdash; offline.</p> |
-| 4 | **ID** | Player Personal Number. Click the icon to the left to copy the number to the clipboard. |
+| 4 | **ID** | The Player Personal Number and Player's ID. Hover on and click the ![copy](https://i.imgur.com/pdcUhnE.png) Copy button to the right to copy the player's ID or the personal number to the clipboard. |
 | 5 | **Test Player Tag**<p>*optional*</p> | Tag that this player is for the QA. |
 | 6 | **Notes** | Player Notes Section, [more info below](#player-notes). |
-| 7 | **🔽 Button** | Click this button to show/hide the player profile header:<p>![header_hide.gif](https://i.imgur.com/pGAI4DF.gif).</p> |
-| 8 | **Balance** | Player balances:<p>Total &mdash; player total balance</p><p>Cash &mdash; player real money balance</p><p>Promo &mdash; player bonus money balance</p><p>Withdrawal &mdash; player balance for withdrawing.</p><p>**8.1** and **8.2** &mdash; click these buttons to put the money to the player balance from the site balance (**Cash in**) or to take the money from the player balance to the site (**Cash out**).</p><p>At the opened pop-up enter the needed amount and the comment and click OK to perform the selected action:</p><p>![cash_in_popup](https://i.imgur.com/1NV6An2.png)</p><p>Another operator must confirm this action at the [Manual Adjustments Section](manual_adjustments.md).</p> |
-| 9 | **Info** | Quick Information about the player:<p>**9.1 Status** &mdash; Current Player's [Account Status](#player-statuses).</p><p>Hover on to show the status description.</p><p>Click the **[Change]** button to [change the player's status](#change-status-pop-up).</p><p>**9.2 Documents** &mdash; Player Documents Status: *Validated* or *Non-Validated*</p><p>**9.3 Email** &mdash; The player's Email with the current status (*validated*/*non-validated*) and the icon to copy email to the clipboard.</p><p>**9.4 Phone** &mdash; The player's Phone Number with the current status (*validated*/*non-validated*) and the icon to copy email to the clipboard.</p><p>**9.5 Total Deposits** &mdash; The Sum of all player's deposits with the number of the deposits in the brackets.</p><p>**9.6 Total Withdrawals** &mdash; The Sum of all player's withdrawals with the number of the deposits in the brackets.</p><p>**9.7 Net Deposit** &mdash; The difference between the Total Deposits and Total Withdrawals.</p> |
+| 7 | **🔼 Button** | Click this button to show/hide the player profile header:<p>![header_hide.gif](https://i.imgur.com/pGAI4DF.gif).</p> |
+| 8 | **Balance** | Player balances:<p>Total &mdash; player total balance</p><p>Cash &mdash; player real money balance</p><p>Bonus &mdash; player bonus money balance</p><p>Withdrawal &mdash; player balance for withdrawing.</p><p>**8.1** and **8.2** &mdash; click these buttons to put the money to the player balance from the site balance (**Cash in**) or to take the money from the player balance to the site (**Cash out**).</p><p>At the opened pop-up enter the needed amount and the comment and click OK to perform the selected action:</p><p>![cash_in_popup](https://i.imgur.com/1NV6An2.png)</p><p>Another operator must confirm this action at the [Manual Adjustments Section](manual_adjustments.md).</p> |
+| 9 | **Info** | Quick Information about the player:<p>**9.1 Status** &mdash; Current Player's [Account Status](#player-statuses).</p><p>Hover on to show the status description.</p><p>Click the **[Change]** button to [change the player's status](#change-status-pop-up).</p><p>**9.2 KYC Status** &mdash; Player verifications statuses: address, age, face, name, and source of funds.<p>KYC 0&mdash;none is verified</p><p>KYC 1&mdash;age, face, and name are verified</p><p>KYC 2&mdash;everything is verified.</p><p>Click the **[Change]** button to open the Change KYS Status Pop-Up and change the status:</p><p>![change_kyc_status_popup](https://i.imgur.com/GQrp8pm.png)</p></p><p>**9.3 Email** &mdash; The player's Email with the current status (*validated*/*non-validated*) and the icon to copy email to the clipboard.</p><p>**9.4 Phone** &mdash; The player's Phone Number with the current status (*validated*/*non-validated*) and the icon to copy email to the clipboard.</p><p>**9.5 Total Deposits** &mdash; The Sum of all player's deposits with the number of the deposits in the brackets.</p><p>**9.6 Total Withdrawals** &mdash; The Sum of all player's withdrawals with the number of the deposits in the brackets.</p><p>**9.7 Net Deposit** &mdash; The difference between the Total Deposits and Total Withdrawals.</p> |
 | 10 | **Attributes** | List of Top-5 player attributes, more info at the [Attributes Section](#player-attributes). |
 
 ## Player Notes

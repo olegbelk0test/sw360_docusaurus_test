@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+sidebar_label: Rewards Tab for GGVegas
 ---
 
 # Rewards Tab for GGVegas

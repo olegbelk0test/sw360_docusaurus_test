@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+sidebar_label: Welcome Screen & 2FA
 ---
 
 # Welcome Screen & 2FA

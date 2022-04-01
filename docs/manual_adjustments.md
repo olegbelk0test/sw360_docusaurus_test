@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+sidebar_label: Manual Adjustments Tab
 ---
 
 # Manual Adjustments Tab

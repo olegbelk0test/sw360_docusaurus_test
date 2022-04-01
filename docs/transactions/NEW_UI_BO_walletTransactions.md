@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: Wallet Transactions Tab
 ---
 
 # Wallet Transactions Tab

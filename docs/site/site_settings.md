@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
+sidebar_label: Site Settings
 ---
 
-# Site Settings Tab
+# Site Settings
 
 Site Settings is the back office section to create a new casino site and configure the existing one.
 

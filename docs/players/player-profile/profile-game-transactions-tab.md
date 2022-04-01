@@ -1,5 +1,6 @@
 ---
 sidebar_position: 14
+sidebar_label: Game Transactions Tab
 ---
 
 # Game Transactions Tab

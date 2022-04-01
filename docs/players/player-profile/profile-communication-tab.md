@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+sidebar_label: Communication Tab
 ---
 
 # Communication Tab

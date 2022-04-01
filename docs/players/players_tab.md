@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: Players Tab
 ---
 
 # Players Tab
@@ -50,10 +51,11 @@ Below there is a table with the list of the players with columns as their attrib
 
 Each of the player's rows is clickable &mdash; click on any column to open the right pop-up menu with the player's profile quick view:
 
-![pop-up_menu_players](https://i.imgur.com/thJDBzN.png)
+![pop-up_menu_players](https://i.imgur.com/YU0Rc9N.png)
 
-Player's profile quick view consists of short information with the player's general info, deposits, balances, personal and address information.
-To open the full-page player profile &mdash; click the "Go to full page" Button at the top right corner of the pop-up or click on the Personal Number at the Players Table:
+Player's profile quick view consists of short information with the player's general info, deposits, balances, personal, and address information.
+
+To open the full-page player profile &mdash; click the "Go to full page" Button at the top right corner of the pop-up or click the Personal Number at the Players Table:
 
 | Open the full profile from the pop-up | Open the full profile from the Players Table |
 |-|-|

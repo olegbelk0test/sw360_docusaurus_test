@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+sidebar_label: Payments Tab
 ---
 
 # Payments Tab
@@ -8,7 +9,9 @@ sidebar_position: 8
 
 The Payments Tab consists of the list of all player's deposits and withdrawals:
 
-![bo_profile_payments_tab](https://i.imgur.com/8G57gFk.png)
+![bo_profile_payments_tab](https://i.imgur.com/832ytwc.png)
+
+The tabs on top help to choose what info to show &mdash; *All* payments, *Deposits*, or *Withdrawals*.
 
 | Field | Description |
 |-|-|

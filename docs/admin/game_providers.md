@@ -1,8 +1,9 @@
 ---
 sidebar_position: 3
+sidebar_label: Game Providers Management
 ---
 
-# Game Providers
+# Game Providers Management
 
 ![game_providers_tab](https://i.imgur.com/dNRGwNt.png)
 

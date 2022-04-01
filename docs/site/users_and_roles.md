@@ -1,8 +1,9 @@
 ---
 sidebar_position: 5
+sidebar_label: Users & Roles Management
 ---
 
-# Users and Roles
+# Users & Roles Management
 
 ![users_and_roles](https://i.imgur.com/JNkbqvu.png)
 

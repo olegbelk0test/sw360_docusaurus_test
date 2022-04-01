@@ -1,5 +1,6 @@
 ---
 sidebar_position: 12
+sidebar_label: Attributions Tab
 ---
 
 # Attributions Tab

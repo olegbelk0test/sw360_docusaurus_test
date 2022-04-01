@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: What is Skywind 360?
 ---
 
 # What is Skywind 360?

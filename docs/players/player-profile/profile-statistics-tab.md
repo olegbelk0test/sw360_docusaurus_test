@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+sidebar_label: Statistics Tab
 ---
 
 # Statistics Tab

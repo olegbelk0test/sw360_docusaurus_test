@@ -1,12 +1,13 @@
 ---
 sidebar_position: 2
+sidebar_label: Player Profile Overview
 ---
 
 # Page Overview
 
 The player profile page consists of the player general information and tabs with the additional player settings and information:
 
-![bo_profile](https://i.imgur.com/ztrJugI.png)
+![bo_profile](https://i.imgur.com/cPQpC2I.png)
 
 | # | Field | Description |
 |-|-|-|
