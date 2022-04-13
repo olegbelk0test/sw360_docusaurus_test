@@ -9,14 +9,14 @@ The campaign is the sequence of actions to apply bonuses and rewards for the pla
 
 The operator can manage campaigns under Campaigns sub-menu item at the Engagement Section:
 
-![campaigns](https://i.imgur.com/u8LQK2V.png)
+![campaigns](https://i.imgur.com/TYVBZl1.png)
 
 | # | Field | Description |
 |-|-|-|
 | 1 | **Menu Item** | Campaigns Tab is a sub-item under the Engagement tab at the left menu bar. |
 | 2 | **Campaigns Table** | The table with the list of the site's campaigns, [more info below](#campaigns-table). |
 | 3 | **[Add Campaign] Button** | Click this button to [create new Campaign](#create-the-campaign). |
-| 4 | **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and select [Edit](#edit-the-campaign) or Disable/Enable the campaign on the site. |
+| 4 | **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and select [Edit](#edit-the-campaign), Activate/Disable, or Delete the campaign. |
 
 ## Campaigns Table
 
@@ -26,6 +26,7 @@ The operator can manage campaigns under Campaigns sub-menu item at the Engagemen
 | **ID** | The unique campaign ID. |
 | **Name** | The Campaign Name. |
 | **Status** | The Campaign Status:<p>Active &mdash; the campaign is currently running on the site</p><p>The campaign can be activated only when the Reward and Schedule are set.</p><p>Draft &mdash; the campaign is in draft status</p><p>Stopped (Inactive) &mdash; the campaign is over or currently stopped on the site.</p> |
+| **Product** | The Product to run the campaign to: *Casino* or *Sports*. |
 | **Description** | Short Campaign Description. |
 | **Hidden** | If enabled &mdash; the campaign is invisible for the player on the site. He will receive notification and the campaign rewards after completing the conditions to get it. |
 | **Schedule** | The Campaign Schedule. |
