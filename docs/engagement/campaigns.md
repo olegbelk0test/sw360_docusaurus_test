@@ -55,12 +55,74 @@ The operator can customize general campaign settings in this tab:
 | 2 | **Name** | Enter Campaign Name. |
 | 3 | **Description** | Enter Campaign Description. |
 | 4 | **Status** | Select Campaign Status.<p>In **Create** Mode only *Draft* Status is available.</p><p>In **Edit** Mode the operator can select *Active, Draft and Inactive* Statuses.</p> |
-| 5 | **Type** | Select Campaign Type:<p>Deposit &mdash; the campaign based on actions with player deposits</p><p>Round &mdash; the campaign based on actions with games</p><p>Update &mdash; the campaign based on actions with updating the player profile</p><p>Registration &mdash; the campaign based on actions with completing the registration on site</p><p>Login &mdash; the campaign based on actions with logging in</p><p>Withdraw &mdash; the campaign based on actions with withdrawals</p><p>Cancel Withdraw &mdash; the campaign based on actions with cancelling withdrawals</p><p>Schedule &mdash; the campaign based on the player's schedule.</p> |
+| 5 | **Type** | Select Campaign Type:<p>Deposit &mdash; the campaign based on actions with player deposits</p><p>Round &mdash; the campaign based on actions with games</p><p>Update &mdash; the campaign based on actions with updating the player profile</p><p>Registration &mdash; the campaign based on actions with completing the registration on site</p><p>Login &mdash; the campaign based on actions with logging in</p><p>Withdraw &mdash; the campaign based on actions with withdrawals</p><p>Cancel Withdraw &mdash; the campaign based on actions with cancelling withdrawals</p><p>Schedule &mdash; the campaign based on the player's schedule.</p><p>Mini game &mdash; the campaign based on the [mini games](#mini-games).</p> |
 | 6 | **Product** | Select Product to run the campaign to: *Casino* or *Sports*. |
 | 7 | **Visibility Conditions** | If the **Campaign is visible for the player** radiobutton is active &mdash; the campaign is visible for the player on the site Promo Section.<p>If it is not active &mdash; the player will receive notification and the campaign rewards only after completing the conditions to get it.</p><p>Click [+ Add Condition] to add additional visibility conditions for the campaign from the [predefined conditions](#predefined-conditions). Choose different options or enter values for the selected conditions:</p><p>![add_conditions_gif](https://i.imgur.com/sNWshIm.gif)</p><p>The campaign will be visible if the player suits to selected conditions.</p><p>To delete the condition &mdash; press [x] near the needed row.</p> |
 | 8 | **Trigger Conditions** | Click [+ Add Condition] to add conditions that will trigger the campaign for the players when they complete these conditions. Choose Options or enter values for the selected audience:<p>![add_audience_gif](https://i.imgur.com/OAjkIkL.gif)</p><p>To delete the audience &mdash; press [x] near the needed row.</p> |
 | 10 | **Cancel** | Click to cancel the changes and return to the Campaigns Tab. |
 | 11 | **Save** | Click to save the Campaign. |
+
+#### Mini Games
+
+There are currently 2 types of mini games: *Wheel of Fortune (WoF)* and *Lootbox*.
+More info about the mini games mechanics can be found [here](https://confluence.skywindgroup.com/display/sw360/Minigames.+Player+Manual).
+
+If the **Campaign Type** = *Mini Game* is selected the following settings will be applied:
+![minigame_campaign_settings](https://i.imgur.com/yFRghtl.png)
+The operator must select only the mini game type in the Visibility Conditions.
+### Campaign Schedule Tab
+
+![campaign_schedule](https://i.imgur.com/qW5tCzS.png)
+
+The operator can view and customize different schedules for the campaign in this tab.
+
+Click ![edit](https://i.imgur.com/1Pphj6e.png) to [edit](#add-schedule-pop-up) the selected schedule, click ![del](https://i.imgur.com/Zyl7T6g.png) to delete the selected schedule.
+
+Click **[+ Add Schedule]** to open [Add Schedule Pop-Up](#add-schedule-pop-up):
+
+#### Add Schedule Pop-Up
+
+![add_schedule_popup](https://i.imgur.com/0HM5RUz.png)
+
+The operator can select Time Zone to run the campaign, Start Date (enter manually or click the 📅 icon to select start date from the date picker), Start and End Time.
+
+If the Campaign needs to run on the specific days &mdash; activate **[In Range]** checkbox ☑ and then select on what days of the week the campaign must be active:
+
+![add_schedule_popup_range](https://i.imgur.com/k6QNFVo.png)
+
+### Campaign Rewards Tab
+
+![campaign_rewards](https://i.imgur.com/UTGwAGi.png)
+
+The operator can view and add Rewards from the [Rewards Tab] to the Campaign in this tab.
+
+Click ![del](https://i.imgur.com/Zyl7T6g.png) to delete the selected reward.
+
+Click **[+ Add Reward]** to open [Add Rewards Pop-Up](#add-rewards-pop-up):
+
+#### Add Rewards Pop-up
+
+![add_rewards](https://i.imgur.com/YNnmuB1.png)
+
+Select needed rewards using checkboxes ☑ to the left and click the **[Add]** Button to add them to the selected Campaign, or click the **[Cancel]** Button to close the pop-up.
+
+#### Campaign Granted Players Tab -- обновить
+
+![campaign_granted_players]
+
+The operator can view players who received bonuses from the campaign in this tab.
+
+##### Granted Players Table
+
+| Column | Description |
+|-|-|
+| **** | . |
+
+Click the **[Save]** Button to create a new Campaign or click the **[Cancel]** Button to discard changes.
+
+## Edit the Campaign
+
+The operator can edit all of the campaign information listed in the [Create the Campaign Section](#create-the-campaign).
 
 #### Predefined Conditions
 
@@ -162,57 +224,3 @@ The list of the Conditions to apply to the Players:
 | **Campaigns** |  |  |
 |  | Total Campaign trigger counter | How many times this campaign can be triggered. |
 |  | Campaign trigger counter | How many times this campaign can be triggered, for the period. |
-
-### Campaign Schedule Tab
-
-![campaign_schedule](https://i.imgur.com/qW5tCzS.png)
-
-The operator can view and customize different schedules for the campaign in this tab.
-
-Click ![edit](https://i.imgur.com/1Pphj6e.png) to [edit](#add-schedule-pop-up) the selected schedule, click ![del](https://i.imgur.com/Zyl7T6g.png) to delete the selected schedule.
-
-Click **[+ Add Schedule]** to open [Add Schedule Pop-Up](#add-schedule-pop-up):
-
-#### Add Schedule Pop-Up
-
-![add_schedule_popup](https://i.imgur.com/0HM5RUz.png)
-
-The operator can select Time Zone to run the campaign, Start Date (enter manually or click the 📅 icon to select start date from the date picker), Start and End Time.
-
-If the Campaign needs to run on the specific days &mdash; activate **[In Range]** checkbox ☑ and then select on what days of the week the campaign must be active:
-
-![add_schedule_popup_range](https://i.imgur.com/k6QNFVo.png)
-
-### Campaign Rewards Tab
-
-![campaign_rewards](https://i.imgur.com/UTGwAGi.png)
-
-The operator can view and add Rewards from the [Rewards Tab] to the Campaign in this tab.
-
-Click ![del](https://i.imgur.com/Zyl7T6g.png) to delete the selected reward.
-
-Click **[+ Add Reward]** to open [Add Rewards Pop-Up](#add-rewards-pop-up):
-
-#### Add Rewards Pop-up
-
-![add_rewards](https://i.imgur.com/YNnmuB1.png)
-
-Select needed rewards using checkboxes ☑ to the left and click the **[Add]** Button to add them to the selected Campaign, or click the **[Cancel]** Button to close the pop-up.
-
-#### Campaign Granted Players Tab -- обновить
-
-![campaign_granted_players]
-
-The operator can view players who received bonuses from the campaign in this tab.
-
-##### Granted Players Table
-
-| Column | Description |
-|-|-|
-| **** | . |
-
-Click the **[Save]** Button to create a new Campaign or click the **[Cancel]** Button to discard changes.
-
-## Edit the Campaign
-
-The operator can edit all of the campaign information listed in the [Create the Campaign Section](#create-the-campaign).
