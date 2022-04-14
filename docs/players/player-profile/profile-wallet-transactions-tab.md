@@ -21,3 +21,5 @@ The Wallet Transactions Tab consists of the list of the player's operations with
 | **Balance After** | The player balance after the transaction. |
 | **Account Type** | The type of the account from which the player did the transaction: *real* or *bonus*. |
 | **Game ID** | The ID of the game that caused the transaction. |
+
+&ast; &mdash; *n/a* if data is not provided.

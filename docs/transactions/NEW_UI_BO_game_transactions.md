@@ -9,9 +9,12 @@ Game Transactions Tab is the list of game round actions. Game Transaction is cre
 
 The operator can view Game Transactions as a single section at the BO:
 
-![game_transactions](https://i.imgur.com/dow6CTr.png)
+![game_transactions](https://i.imgur.com/vjkK5gv.png)
 
-On top of the page, there are [Filters Button](#filters), [Table Settings](#table-settings), and a universal search bar.
+On top of the page, there are Filters Button, Table Settings, and a universal search bar.
+
+The operator can filter the table by every column. Click the **[+Add Filters]** button to select filters.
+
 The operator can search game transactions by Round ID &mdash; type or paste the needed value to the search bar and press **Enter**.
 
 Below, there is a Game Transaction Table that contains all the site game transactions sorted by descending *Finished Time* by default.
@@ -22,24 +25,38 @@ Below, there is a Game Transaction Table that contains all the site game transac
 |-|-|
 | **Started** | Date&Time starting the game round. |
 | **Finished** | Date&Time finishing the game round. |
+| **User ID** |<p>The ID of the player for whom the transaction was carried out.</p><p>Click to open [Wallet Transactions for this player](/docs/players/player-profile/profile-wallet-transactions-tab).</p>|
+| **Round ID** | <p>The ID of the round for which the transaction was carried out.</p><p>Click to open the Transaction Details page.</p><p>Hover on and click the icon to the right to copy the Round ID to the clipboard.</p>|
 | **Game Name** | The name of the game played. |
-| **Game Provider** | The provider of the game played. |
+| **Provider** | The provider of the game played. |
+| **Vendor** | The vendor of the game played. |
 | **Total Bet** | The player's total bet. |
 | **Total Win** | The player's total win. |
+| **Potential Winning** | The player's Potential Winning if the round was lost. |
 | **Cash Bet** | The player's cash money bet. |
 | **Cash Win** | The player's cash money wins. |
-| **Free Spins Win** | The player's FS win. |
-| **Free Spins Bet** | The player's FS bet. |
-| **Bonus Bet** | The player's bonus money bet. |
-| **Bonus Win** | The player's bonus money wins. |
-| **Turnover Amount** | The player's turnover amount. |
+| **Promo Bet** | The player's bonus money bet. |
+| **Promo Win** | The player's bonus money wins. |
+| **Free Bet Amount** | The player's free bet amount. |
+| **Free Bet Win** | The player's free bet win. |
 | **Status** | The status of the transaction &mdash; *win*, *lost*, or *pending* (if the round is in progress). |
-| **Round ID** | The Round ID.<p>Click the Round ID to open Transaction Details.</p><p>Hover on and click the icon to the left to copy the round ID to the clipboard.</p> |
+| **Odds** | The odds of the player's bet, if free bet. |
+| **Ticket Type** | The type of the ticket, if free bet. |
+| **IP** | The IP of the player. |
+| **Product** | The Product player played to: *Casino* or *Sports*. |
 | **Total Jackpot Contribution** | The player's total jackpot contribution, if applicable. |
-| **Cash Jackpot Contribution** | The player's cash money jackpot contribution, if applicable. |
-| **Bonus Jackpot Contribution** | The player's bonus money jackpot contribution, if applicable. |
+| **Total Cash Jackpot Contribution** | The player's cash money jackpot contribution, if applicable. |
+| **Total Bonus Jackpot Contribution** | The player's bonus money jackpot contribution, if applicable. |
 | **Total Jackpot Win** | The player's total jackpot win. |
-| **Cash Jackpot Win** | The player's bonus money jackpot win. |
-| **Bonus Jackpot Win** | The player's bonus money jackpot win. |
-| **Is Free Spins** | Boolean &mdash; true/false. If the round is Free Spins round. |
-| **Game Session ID** | The Game Session ID. |
+| **Total Cash Jackpot Win** | The player's bonus money jackpot win. |
+| **Total Bonus Jackpot Win** | The player's bonus money jackpot win. 
+
+&ast; &mdash; *n/a* if data is not provided.|
+
+## Transaction Details Page
+
+The page with the details of the selected game transaction:
+
+![tr_details_page](https://i.imgur.com/xkxaeWC.png)
+
+The operator can view all the game transaction details in single page with connected to this transaction wallet operations.

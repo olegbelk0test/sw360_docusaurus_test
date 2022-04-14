@@ -13,29 +13,27 @@ The Game Transactions Tab consists of the list of the player's information about
 
 | Field | Description |
 |-|-|
-| **Started** | The date and time of the action start. The format is yyyy-mm-dd hh:mm:ss. |
-| **Finished** | The date and time of the action end. The format is yyyy-mm-dd hh:mm:ss. |
-| **Game Name** | The name of the game. |
-| **Game Provider** | The provider of the game. |
-| **Total Bet** | The total bet of the player during the action. |
-| **Total Win** | The total win of the player during the action. |
-| **Total Cash Bet** | The total cash bet of the player during the action. |
-| **Total Cash Win** | The total cash win of the player during the action. |
-| **Total Free Spins Win** | The total free spins win (if there was any) of the player during the action. |
-| **Total Free Spins Bet** | The total free spins bet (if there was any) of the player during the action. |
-| **Total Bonus Bet** | The total bonus bet of the player during the action. |
-| **Total Bonus Win** | The total bonus win of the player during the action. |
-| **Turnover Amount** | The amount on which the player's turnover increased during the action. |
-| **Status** | The status of the action: *Win* or *Lose*. |
-| **Round ID** | The Unique Round ID. Click to open a detailed Wallet Transaction of the round. Hover on and click the icon to the right to copy the ID to the clipboard. |
-| **Total Jackpot Contribution** | The total jackpot contribution (if there was any) of the player during the action. |
-| **Total Cash Jackpot Contribution** | The total cash jackpot contribution (if there was any) of the player during the action. |
-| **Total Bonus Jackpot Contribution** | The total bonus jackpot contribution (if there was any) of the player during the action. |
-| **Total Jackpot Win** | The total jackpot win (if there was any) of the player during the action. |
-| **Total Cash Jackpot Win** | The total cash jackpot win (if there was any) of the player during the action. |
-| **Total Bonus Jackpot Win** | The bonus jackpot win (if there was any) of the player during the action. |
-| **Free Spins Reward Name** | The name of the free spins reward (if there was any) of the player during the action. |
-| **Free Spins Reward Type** | The type of the free spins reward (if there was any) of the player during the action. |
-| **Game Session ID** | The Game Session ID. Hover on and click the icon to the right to copy the ID to the clipboard. |
+| **Started** | Date&Time starting the game round. |
+| **Finished** | Date&Time finishing the game round. |
+| **Round ID** | <p>The ID of the round for which the transaction was carried out.</p><p>Click to open the Transaction Details page.</p><p>Hover on and click the icon to the right to copy the Round ID to the clipboard.</p>|
+| **Game Name** | The name of the game played. |
+| **Provider** | The provider of the game played. |
+| **Vendor** | The vendor of the game played. |
+| **Total Bet** | The player's total bet. |
+| **Total Win** | The player's total win. |
+| **Cash Bet** | The player's cash money bet. |
+| **Cash Win** | The player's cash money wins. |
+| **Promo Bet** | The player's bonus money bet. |
+| **Promo Win** | The player's bonus money wins. |
+| **Free Bet Amount** | The player's free bet amount. |
+| **Free Bet Win** | The player's free bet win. |
+| **Status** | The status of the transaction &mdash; *win*, *lost*, or *pending* (if the round is in progress). |
+| **IP** | The IP of the player. |
+| **Total Jackpot Contribution** | The player's total jackpot contribution, if applicable. |
+| **Total Cash Jackpot Contribution** | The player's cash money jackpot contribution, if applicable. |
+| **Total Bonus Jackpot Contribution** | The player's bonus money jackpot contribution, if applicable. |
+| **Total Jackpot Win** | The player's total jackpot win. |
+| **Total Cash Jackpot Win** | The player's bonus money jackpot win. |
+| **Total Bonus Jackpot Win** | The player's bonus money jackpot win. |
 
 &ast; &mdash; *n/a* if data is not provided.

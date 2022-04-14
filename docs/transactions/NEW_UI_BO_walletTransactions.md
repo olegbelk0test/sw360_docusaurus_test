@@ -9,9 +9,13 @@ Wallet Transactions reflect all changes made over the player wallet accounts.
 
 The operator can view Wallet Transactions as a single section at the BO:
 
-![wallet_transactions](https://i.imgur.com/cuamgN5.png)
+![wallet_transactions](https://i.imgur.com/wn0Piub.png)
 
-On top of the page, there are [Filters Button](#filters) and [Table Settings](#table-settings).
+On top of the page, there is the **[+Add Filters]** button. 
+The operator can filter the table by *Date created* or *Game ID*:
+
+![filter_wallet_transactions](https://i.imgur.com/V2buZp4.png)
+
 Below, there is a Wallet Transaction Table with an infinite scroll that contains all the site wallet transactions sorted by descending *Created Date*.
 
 ## Wallet Transactions Table
@@ -25,6 +29,9 @@ Below, there is a Wallet Transaction Table with an infinite scroll that contains
 | **Balance Before** | The player balance before the transaction. |
 | **Balance After** | The player balance after the transaction. |
 | **Account Type** | The type of the account of the transaction:<p>real &mdash; real money account,</p><p>bonus &mdash; bonus money account.</p> |
+| **Game ID** | The ID of the game for which the transaction was carried out. |
+
+&ast; &mdash; *n/a* if data is not provided.
 
 ### Transaction Types
 
