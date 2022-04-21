@@ -5,7 +5,7 @@ sidebar_label: Attributions Tab
 
 # Attributions Tab
 
-Attributions are the player properties which is used to select players for the marketing.
+Attributions are the rules by which the [attributes](/docs/site/attributes) are assigned to the players.
 
 The operator can manage Attributions under Attributions sub-menu item at the Engagement Section:
 
@@ -24,7 +24,7 @@ The operator can manage Attributions under Attributions sub-menu item at the Eng
 |-|-|
 | **☑** | Checkboxes for mass selection &mdash; select different attributions to export or delete (?) them at once. |
 | **ID** | The unique Attribution ID. |
-| **Name** | The Attribution Name. |
+| **Attribute Name** | The Name of the Attribute used in the Attribution. |
 | **Value** | The Attribution Value. |
 | **Condition** | The additional condition for the attribution. |
 
@@ -32,7 +32,7 @@ The operator can manage Attributions under Attributions sub-menu item at the Eng
 
 ![create_attribution](https://i.imgur.com/9Em0hiE.png)
 
-The operator can create new Attribution, choose their values, and add different [predefined conditions](#predefined-conditions) to select audience for the marketing:
+The operator can create new Attribution, choose their values, and add different [predefined conditions](#predefined-conditions) to attach them to the players:
 
 | # | Field | Description |
 |-|-|-|
@@ -41,6 +41,15 @@ The operator can create new Attribution, choose their values, and add different 
 | 3 | **When** | Set an additional [condition](#predefined-conditions) to apply to the attribution. |
 
 Click the **[Save]** Button to create new Attribution or click the **[Cancel]** Button to discard changes.
+
+Example:
+We need to determine the player who have more then 2 deposits. We select the *2nd_depositor* attribute from the list of the site's attributes, set its value to *True* and add the condition "total deposits number" more than 2:
+
+![attribution_example](https://i.imgur.com/Fk95gVc.gif)
+
+When some of the players will deposit more then 2 times &mdash; the attribute *2nd_depositor* will be shown at their profile header on the right:
+
+![attr_in_header](https://i.imgur.com/Knj3cXj.png)
 
 ## Edit the Attribution
 
@@ -146,3 +155,5 @@ The list of the Conditions to apply to the selected Attributions:
 | **Campaigns** |  |  |
 |  | Total Campaign trigger counter | How many times this campaign can be triggered. |
 |  | Campaign trigger counter | How many times this campaign can be triggered, for the period. |
+
+If some of the conditions are not listed &mdash; contact the support to add new ones.

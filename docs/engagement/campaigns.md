@@ -167,6 +167,7 @@ The list of the Conditions to apply to the Players:
 |  | Total loss amount (bonus) | The total difference between the player bonus bet and win amounts. (Always greater or equals than zero). |
 |  | Rounds count for period | The number of the player finished rounds, for the period. |
 |  | Total rounds count | The total number of the player finished rounds. |
+| **Attributes** |  | The list of the [site's attributes](/docs/site/attributes) |
 | **Player** |  |  |
 |  | Number of days till birthday | How many days left till the player birthday. (This field is calculated every day). |
 |  | Number of days passed after login | How many days have passed since the player last login. (This field is calculated every day). |
@@ -225,3 +226,5 @@ The list of the Conditions to apply to the Players:
 | **Campaigns** |  |  |
 |  | Total Campaign trigger counter | How many times this campaign can be triggered. |
 |  | Campaign trigger counter | How many times this campaign can be triggered, for the period. |
+
+If some of the conditions are not listed &mdash; contact the support to add new ones.

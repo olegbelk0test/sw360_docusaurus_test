@@ -35,7 +35,7 @@ After clicking Login Button, if the backoffice requires it, the system asks you 
 Open the app, enter the code and click **[Submit]** to complete the login process.
 
 :::note
-If you having troubles with the authenticator &mdash; click **No access to the authenticator?** link and send the request to reset 2FA to the admin:
+If you having troubles with the authenticator &mdash; click **No access to the authenticator?** link and send the request to reset 2FA to the site admin:
 
 ![reset_2fa_request](https://i.imgur.com/qPNlfNF.png)
 :::
