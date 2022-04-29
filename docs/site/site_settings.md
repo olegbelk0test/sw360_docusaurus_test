@@ -13,13 +13,13 @@ The admin can manage Site Settings under Settings sub-menu item at the Site Sect
 
 Site Settings consists of 7 Tabs with different sections:
 
-1. [General Settings](#general-settings) &mdash; basic settings
-2. [Integrity Settings](#integrity-settings) &mdash; connection settings
-3. [Regulation Settings](#regulation-settings) &mdash;
-4. [SMS/Email Verification Settings](#smsemail-verification-settings) &mdash;
-5. [Documents Validation Settings](#documents-validation-settings) &mdash;
-6. [Games Management Settings](#games-management-settings) &mdash;
-7. [Providers Management Settings](#providers-management-settings) &mdash;
+1. [General Settings](#general-settings) 
+2. [Integrity Settings](#integrity-settings)
+3. [Regulation Settings](#regulation-settings)
+4. [SMS/Email Verification Settings](#smsemail-verification-settings)
+5. [Documents Validation Settings](#documents-validation-settings)
+6. [Games Management Settings](#games-management-settings)
+7. [Providers Management Settings](#providers-management-settings)
 
 ## General Settings
 
@@ -124,7 +124,7 @@ This section consists of player uploaded documents settings:
 
 This section consists of site games settings:
 
-![games_site_settings](https://i.imgur.com/LSi41z0.png)
+![games_site_settings](https://i.imgur.com/7xxTYJo.png)
 
 There is the universal search bar at the top of the table &mdash; enter at least 2 symbols to begin the search.
 
@@ -132,13 +132,14 @@ There is the universal search bar at the top of the table &mdash; enter at least
 |-|-|
 | **☑** | Checkboxes for mass selection &mdash; select different games to Activate/Deactivate them at once. |
 | **Game Name** | The Game Name, as displayed on the site. |
-| **Desktop External ID** | The Game External ID on desktop.<p>Hover on and click the icon to the right to copy the ID to the clipboard.</p> |
+| **External Desktop ID** | The Game External ID on desktop.<p>Hover on and click the icon to the right to copy the ID to the clipboard.</p> |
 | **Mobile External ID** | The Game External ID on mobile.<p>Hover on and click the icon to the right to copy the ID to the clipboard.</p> |
 | **Integration** | The Game Integration System. |
 | **Game Provider** | The Game Provider. |
-| **Bonus Money** | True/False &mdash; shows If the game is eligible to play using the player's bonus money. |
+| **Bonus Money radiobutton** | Active/Inactive &mdash; shows if the game is eligible to play using the player's bonus money. |
 | **Status** | The Game Status on the site &mdash; Active or Inactive. |
 | **Coefficient** | The Game coefficient, used in the turnover calculation.<p>Click to change, then click ☑ to the right to apply.</p> |
+| **Hide from Search radiobutton** | Active/Inactive &mdash; shows if the game is hidden from the search results. For example, if the game is for testing.|
 | **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and Activate/Deactivate the game on the site. |
 
 ## Providers Management Settings
