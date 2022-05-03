@@ -17,12 +17,12 @@ The tabs on top help to choose what info to show &mdash; *All* payments, *Deposi
 |-|-|
 | **Payment ID** | The unique ID of the payment. Click to open the [Payment Details Page](#transaction-details-page). |
 | **Type** | The type of action: *deposit* or *withdraw*. |
-| **Payment Method** | The Payment Method through which the player performed the payment: CreditCard, CNP, Visa, MasterCard, etc. |
+| **Payment Method** | The Payment Method through which the player performed the payment: CreditCard, Bank Account, CNP, Visa, MasterCard, Mobile, Android/Google Pay, etc. |
 | **Provider** | The payment service provider through which the player performed the payment: TopPay, SafeCharge, PaySafeCard, etc. |
 | **Status** | The payment Status: Initiated, Error, Processing, Pending, Failed, Successful, Scheduled Approval, Canceled. |
 | **Amount** | The money amount, which is transferred to the player's account. |
 | **Total Amount** | Total money amount spent by the player for the payment. |
-| **Initiated** |  The Date and Time of the player payment, the format is yyyy-mm-dd hh:mm:ss. |
+| **Initiated** | The Date and Time of the player payment, the format is yyyy-mm-dd hh:mm:ss. |
 | **Platform** | The payment platform: *mobile*, *desktop*. |
 | **Fee Amount** | The amount of Fee (tax to the state and legal fees) taken by the site's provider. |
 | **Trx ID** | Transaction ID &mdash; transaction number from payment providers. Click to open the [Payment Details Page](#transaction-details-page). |
