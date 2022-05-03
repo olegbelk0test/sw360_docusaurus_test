@@ -26,7 +26,7 @@ Below, there is a Game Transaction Table that contains all the site game transac
 | **Started** | Date&Time starting the game round. |
 | **Finished** | Date&Time finishing the game round. |
 | **User ID** |<p>The ID of the player for whom the transaction was carried out.</p><p>Click to open [Wallet Transactions for this player](/docs/players/player-profile/profile-wallet-transactions-tab).</p>|
-| **Round ID** | <p>The ID of the round for which the transaction was carried out.</p><p>Click to open the Transaction Details page.</p><p>Hover on and click the icon to the right to copy the Round ID to the clipboard.</p>|
+| **Round ID** | <p>The ID of the round for which the transaction was carried out.</p><p>Click to open the [Transaction Details page](#transaction-details-page).</p><p>Hover on and click the icon to the right to copy the Round ID to the clipboard.</p>|
 | **Game Name** | The name of the game played. |
 | **Provider** | The provider of the game played. |
 | **Vendor** | The vendor of the game played. |
@@ -49,9 +49,9 @@ Below, there is a Game Transaction Table that contains all the site game transac
 | **Total Bonus Jackpot Contribution** | The player's bonus money jackpot contribution, if applicable. |
 | **Total Jackpot Win** | The player's total jackpot win. |
 | **Total Cash Jackpot Win** | The player's bonus money jackpot win. |
-| **Total Bonus Jackpot Win** | The player's bonus money jackpot win. 
+| **Total Bonus Jackpot Win** | The player's bonus money jackpot win. |
 
-&ast; &mdash; *n/a* if data is not provided.|
+&ast; &mdash; *n/a* if data is not provided.
 
 ## Transaction Details Page
 
@@ -59,4 +59,8 @@ The page with the details of the selected game transaction:
 
 ![tr_details_page](https://i.imgur.com/xkxaeWC.png)
 
-The operator can view all the game transaction details in single page with connected to this transaction wallet operations.
+The operator can view all the game transaction details in a single page with connected to this transaction wallet operations.
+
+There is a bet ticket preview on the page if this is the Sports transaction:
+
+![tr_details_page_sports](https://i.imgur.com/ZJxTIBb.png)
