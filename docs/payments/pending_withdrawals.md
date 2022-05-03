@@ -14,7 +14,7 @@ The operator can manage Pending Withdrawals under Pending Withdrawals sub-menu i
 | # | Field | Description |
 |-|-|-|
 | 1 | **Menu Item** | Withdrawals Tab is a sub-item under the Payments tab at the left menu bar. |
-| 2 | **Filters** | The page opens with the default filtering by Withdrawals, which were initiated in the past 30 days.<p>.The operator can filter the table by the following fields:<p>![filter_pending_withdrawals](https://i.imgur.com/5Y8eiFC.png)</p> |
+| 2 | **Filters** |  <p>The page opens with the default filtering by Pending Withdrawals, which were initiated in the past 30 days.</p><p>The operator can filter the table by the following fields:</p><p>![filter_pending_withdrawals](https://i.imgur.com/5Y8eiFC.png)</p> |
 | 3 | **Withdrawals Table** | The table with the list of the attributions, [more info below](#pending-withdrawals-table). |
 | 4 | **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and select Approve, Decline or Cancel the Withdrawal.<p>Another operator must confirm the selected action at the [Manual Adjustments Section](/docs/manual_adjustments).</p> |
 
