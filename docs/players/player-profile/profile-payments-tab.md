@@ -36,13 +36,13 @@ The tabs on top help to choose what info to show &mdash; *All* payments, *Deposi
 ❕ The player can only deposit up to 900 RON without [Documents Validation](#verification-tab-player-documents-section).
 ❕ If the player makes a withdrawal &mdash; their Bonus balance will be canceled.
 
-## Transaction Details Page TBD
+## Transaction Details Page
 
-Transaction Details Page opens on click on the **Payment ID** or **Trx ID** at the Player Payments Tab.
+Transaction Details Page opens on click on the **Payment ID** or **Trx ID** at the Player Payments Tab or at the [Deposits](/docs/payments/deposits)/[Withdrawals](/docs/payments/withdrawals) Tabs.
 
 The operator can view the player transaction details on this page:
 
-![bo_transaction_page](https://i.imgur.com/39dXIKI.png)
+![bo_transaction_page](https://i.imgur.com/BDc9mDw.png)
 
 The Page consists of 3 sections:
 
@@ -50,36 +50,38 @@ The Page consists of 3 sections:
 2. **[Transaction Tracking](#transaction-details-page-transaction-tracking)** &mdash; tracking info of the transaction money.
 3. **[Wallet Transactions](#transaction-details-page-wallet-transactions)** &mdash; the player's wallet transactions regarding the viewed transaction.
 
+There is the transaction header on top of the page with the status of the transaction, player information, registration and login data.
 ### Transaction Details Page. General Transaction Information
 
 The operator can view the transaction detailed attributes on this page:
 
-![bo_transaction_general_tab](https://i.imgur.com/9xJWQku.png)
+![bo_transaction_general_tab](https://i.imgur.com/Tibefd9.png)
 
 | # | Field | Description |
 |-|-|-|
 | 1 | **Initiated** | The date and time of the transaction. The format is dd/mm/yyyy hh:mm:ss. |
 | 2 | **Payment ID** | The unique ID of the payment. Click the icon to the right to copy the ID to the clipboard. |
 | 3 | **Provider** | The provider of the player payment method (payment technology) based on the site preferences: TopPay, SafeCharge, PaySafeCard, etc. |
-| 4 | **Payment Method** | Type of the player payment based on the site preferences: Skrill, Visa, MasterCard, iDeal, etc. |
-| 5 | **Status** | The payment Status: Initiated, Error, Processing, Pending,  Failed, Successful, Schedule Approval, Canceled. |
+| 4 | **Method Type** | Type of the player payment based on the site preferences: Skrill, Visa, MasterCard, iDeal, etc. |
+| 5 | **Status** | The payment Status: Initiated, Error, Processing, Pending, Failed, Successful, Schedule Approval, Canceled. |
 | 6 | **Trx ID** | The unique transaction ID. Click the icon to the right to copy the ID to the clipboard. |
 | 7 | **Payment Country** | The country of the payment. |
-| 8 | **Amount** | The amount of money transferred to/from the player account depending on the transaction type (deposit/withdrawal). |
-| 9 | **Total Amount** | The total amount of money, which is transferred to/from the player account depending on the transaction type (deposit/withdrawal). |
-| 10 | **Fee Amount** | The Fee Amount (tax to the state and legal fees), which is transferred from the player to the site provider. It is the commission for the transaction. |
-| 11 | **Tax Amount** | The Tax Amount (fee in %) transferred from the player to the site provider. It is the commission for the transaction. |
-| 12 | **Platform** | The transaction platform: *mobile*, *desktop*. |
-| 13 | **Card Number** | The number of the transaction card. |
-| 14 | **Name on Card** | The name on the transaction card. |
-| 15 | **Expiration Date MM/YY** | The expiration date of the transaction card. |
-| 16 | **IP** | The IP Number, from which player did the transaction. | IP address where this payment was made |
-| 17 | **Email** | The player's email. | Email of the player |
-| 18 | **Reference Number** | Transaction number for identifying the transaction in the provider system. | Unique reference number of the payment |
-
-❕ If the status (5) of the transaction is "processing" the operator can approve or decline it (or cancel the transaction) using buttons at the bottom of the page:
-
-![approve_transaction](https://i.imgur.com/1DlxiJY.gif)
+| 8 | **Bank Name** | The Name of the Bank to which the player performed the payment, if applicable. |
+| 9 | **Bank Number** | The Bank Number to  which the player performed the payment, if applicable. |
+| 10 | **Account Type** | The type of the account: *bonus* or *real*. |
+| 11 | **Amount** | The amount of money transferred to/from the player account depending on the transaction type (deposit/withdrawal). |
+| 12 | **Total Amount** | The total amount of money, which is transferred to/from the player account depending on the transaction type (deposit/withdrawal). |
+| 13 | **Fee Amount** | The Fee Amount (tax to the state and legal fees), which is transferred from the player to the site provider. It is the commission for the transaction. |
+| 14 | **Tax Amount** | The Tax Amount (fee in %) transferred from the player to the site provider. It is the commission for the transaction. |
+| 15 | **Platform** | The transaction platform: *mobile* or *desktop*. |
+| 16 | **Type** | The type of the transaction: *deposit* or *withdraw*. |
+| 17 | **Card Number** | The number of the transaction card. |
+| 18 | **Name on Card** | The name on the transaction card. |
+| 19 | **Expiration Date MM/YY** | The expiration date of the transaction card. |
+| 20 | **IP** | The IP Number, from which player did the transaction. | IP address where this payment was made |
+| 21 | **Email** | The player's email. | Email of the player |
+| 22 | **Reference Number** | Transaction number for identifying the transaction in the provider system. | Unique reference number of the payment |
+| 23 | **Actions** | <p>On some statuses the operator can approve, decline, retry or cancel the transaction.</p><p>Click on the button to perform the action.</p><p>Click on the 🔽 symbol near the button to add the comment to the action.</p><p></p><p>![decline](https://i.imgur.com/uZWUmsK.gif)</p><p>Click on the 🔽 near the Approve button to schedule the approval of the transaction:</p><p>![trx_schedule_appr](https://i.imgur.com/pFWWQIT.gif)</p> |
 
 ### Transaction Details Page. Transaction Tracking
 
@@ -98,14 +100,14 @@ The Operator can see the table with the transaction tracking details on this pag
 
 The operator can see the table with the player wallet operations regarding the selected transaction on this page:
 
-![bo_transaction_wallet_tab](https://i.imgur.com/jvnAK0C.png)
+![bo_transaction_wallet_tab](https://i.imgur.com/Lx812b7.png)
 
 | # | Field | Description |
 |-|-|-|
-| 1 | **Player ID** | The Id of the player. Click to open [Player Profile](#player-profile-page-overview). |
-| 2 | **Created Date** | The Date and Time of the transaction in the format: yyyy-mm-dd hh:mm:ss. |
-| 3 | **Account ID** | Status of the player account: real, promo. |
-| 4 | **Transaction Type** | The type of the transaction: deposit, deposit-fee, withdrawal, withdrawal-fee. |
+| 1 | **Created Date** | The Date and Time of the transaction in the format: yyyy-mm-dd hh:mm:ss. |
+| 2 | **Account Name** | Status of the player account: *real* or *bonus*. Click to open the [Player Payments Tab](/docs/players/player-profile/profile-payments-tab). |
+| 3 | **Account Type** | Status of the player account: *real* or *bonus*. |
+| 4 | **Transaction Type** | The type of the transaction: deposit, depositFee, withdraw, withdrawFee. |
 | 5 | **Amount** | The amount of the transaction. |
 | 6 | **Balance Before** | The player balance before the transaction. |
 | 7 | **Balance After** | The player balance after the transaction. |
