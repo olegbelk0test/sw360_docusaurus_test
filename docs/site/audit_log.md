@@ -5,7 +5,7 @@ sidebar_label: Audit Log
 
 # Audit Log
 
-Audit Log Tab consists of the log of all the actions performed by the site operators.
+Audit Log Tab consists of the logs of all the actions performed by the site operators.
 
 The operator can view Audit Logs under Audit Log sub-menu item at the Site Section:
 
