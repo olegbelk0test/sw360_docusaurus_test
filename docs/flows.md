@@ -62,34 +62,64 @@ Click **[Cancel]** or close the pop-up to cancel deleting, click **[Delete]** to
 
 ## Create or Edit Flow
 
-![create_flow](https://i.imgur.com/aJ9EUuC.png)
+![create_flow](https://i.imgur.com/tp63ab9.png)
 
-The operator can create new Flows, add different visibility conditions to select flow audiences, and schedule the flows.
-
-There are 2 tabs to operate while creating and editing the flows:
-
-1. [General Tab](#flow-general-tab)
-2. [Schedule Tab](#flow-schedule-tab)
-
-### Flow General Tab
-
-![!flow_general](https://i.imgur.com/Bh2M6mq.png)
-
-The operator can customize general flow settings in this tab:
+The operator can create and edit flows, view flow logs, add different visibility conditions to select flow audiences, and schedule the flows.
 
 | # | Field | Description |
 |-|-|-|
-| 1 | **Status** | Flow Status: *Draft*, *Active*.<p>Click [Activate] to activate the flow when in Draft Status</p><p>Click [Deactivate] to set the flow status to draft when in Active status:</p><p>![flow_change_status.gif](https://i.imgur.com/J6bVY6m.gif)</p> |
-| 2 | **Name** | Enter the Flow Name. |
-| 3 | **Flow Editor** | The scheme of the flow. |
-| 4 | **Open Flow Editor** | Click to open the built-in Flow Editor to edit the flow details.<p>The operator can also [add test player](#adding-test-player-to-the-flow) in the editor to test the flow.</p> |
-| 5 | **View logs** | Click to open the built-in flow logs viewer. |
-| 6 | **Category** | Click to select the Category under which the flow will be created. |
-| 7 | **Type** | Select Flow Type:<p>Deposit &mdash; the Flow is based on actions with player deposits</p><p>Round &mdash; the Flow is based on actions with games</p><p>Update &mdash; the Flow is based on actions with updating the player profile</p><p>Registration &mdash; the Flow is based on actions with completing the registration on site</p><p>Login &mdash; the Flow is based on actions with logging in</p><p>Withdraw &mdash; the Flow is based on actions with withdrawals</p><p>Cancel Withdraw &mdash; the Flow is based on actions with cancelling withdrawals</p><p>Schedule &mdash; the campaign based on the player's schedule.</p> |
-| 8 | **Description** | Enter Flow Description. |
-| 9 |  **Visibility Conditions** | Click [+ Add Condition] to add visibility conditions for the flow from the [predefined conditions](#predefined-conditions). Choose different options or enter values for the selected conditions:<p>![add_conditions_gif](https://i.imgur.com/xuQWFOF.gif)</p><p>To delete the condition &mdash; press [x] near the needed row.</p> |
-| 10 | **Cancel** | Click to cancel the changes and return to the Flows Tab. |
-| 11 | **Save** | Click to save the Flow. |
+| 1 | **Name** | Enter the Flow Name. |
+| 2 | **Flow** Tab | Flow settings. |
+| 3 | **Logs** Tab | <p>Click to view Flow Logs:</p><p>![flow_logs](https://i.imgur.com/xU7Zgq6.png)</p><p>The operator can view the activity of the flow (how many flows were triggered and when) on this tab.</p> |
+| 4 | **Flow Scheme** | <p>The scheme of the flow.</p><p>Click **Open Flow Editor** to open the built-in Flow Editor.</p> |
+| 5 | **General Tab** | <p>General flow settings:</p><p>**5.1 Category** &mdash; click to select the Flow Category under which the flow will be created</p><p>**5.2 Type** &mdash; Select Flow Type:<p><p>*Deposit* &mdash; the Flow is based on actions with player deposits</p><p>*Round* &mdash; the Flow is based on actions with games</p><p>*Update* &mdash; the Flow is based on actions with updating the player profile</p><p>*Registration* &mdash; the Flow is based on actions with completing the registration on site</p><p>*Login* &mdash; the Flow is based on actions with logging in</p><p>*Withdraw* &mdash; the Flow is based on actions with withdrawals</p><p>*Cancel Withdraw* &mdash; the Flow is based on actions with cancelling withdrawals</p><p>*Schedule* &mdash; the Flow is based on the player's schedule.</p><p>*Campaign Granted* &mdash; the Flow is based on if the campaign was granted to the player.</p>**5.3 Description** &mdash; enter flow description</p><p>**5.4 Trigger Conditions** &mdash; click [+ Add Condition] to add conditions to trigger the flow from the [predefined conditions](#predefined-conditions).</p><p>Choose different options or enter the values for the selected conditions:</p><p>![add_conditions_gif](https://i.imgur.com/xuQWFOF.gif)</p><p>To delete the condition &mdash; press [x] near the needed row.</p> |
+| 6 | **Schedule Tab** | The operator can view and customize different schedules for the Flows in this tab. [More info below](#flow-schedule-tab). |
+| 7 | **Flow Status** | The current status of the flow: *Active* of *Draft* (Inactive). Click the button to the right to activate or deactivate the flow. |
+| 8 | **Cancel** | Click to cancel the changes and return to the Flows Tab. |
+| 9 | **Save** | Click to save the Flow. |
+### Flow Schedule Tab
+
+![flow_schedule](https://i.imgur.com/2MA3tAT.png)
+
+The operator can view and customize different schedules for the Flows in this tab.
+
+Click ![edit](https://i.imgur.com/1Pphj6e.png) to [edit](#add-schedule-pop-up) the selected schedule, click ![del](https://i.imgur.com/Zyl7T6g.png) to delete the selected schedule.
+
+Click **[+ Add Schedule]** or **Edit** to open [Add Schedule Pop-Up](#add-schedule-pop-up):
+
+#### Add Schedule Pop-Up
+
+![add_schedule_popup](https://i.imgur.com/0HM5RUz.png)
+
+The operator can select Time Zone to run the Flow, Start Date (enter manually or click the 📅 icon to select start date from the date picker), Start and End Time.
+
+If the Flow needs to run on the specific days &mdash; select the **[In Range]** checkbox ☑ and then select on what days of the week the Flow must be active:
+
+![add_schedule_popup_range](https://i.imgur.com/k6QNFVo.png)
+
+Click the **[Save]** Button to create a new Flow or click the **[Cancel]** Button to discard changes.
+
+### Adding Test Player to the Flow
+
+The operator can add test player to the selected flow to test how it works.
+To do so:
+
+1. The operator must open the built-in Flow Editor and click the **[Test]** button
+
+2. Select test player from the list, click on it
+
+3. There will be a JSON with test player's properties on the next page.
+   Click the **[Start]** button to apply the flow to the selected player (to test on the casino's site using the test player's credentials) or click the **[Back]** button to select another test player:
+
+![test_flow_gif](https://i.imgur.com/TQMiwd5.gif)
+
+## Clone Flow
+
+To clone the Flow &mdash; click [Clone] in the Flow context menu. You will see Clone Flow Pop-Up:
+
+![clone_flow_pop-up](https://i.imgur.com/7Rgr51k.png)
+
+The operator needs to change the Flow Name and select the Category of the New Flow or keep selected. Click [Clone] to create the new Flow or close the Pop-Up to cancel.
 
 #### Predefined Conditions
 
@@ -191,47 +221,3 @@ The list of the Conditions to apply to the selected Audiences:
 | **Campaigns** |  |  |
 |  | Total Campaign trigger counter | How many times this campaign can be triggered. |
 |  | Campaign trigger counter | How many times this campaign can be triggered, for the period. |
-
-### Flow Schedule Tab
-
-![flow_schedule]
-
-The operator can view and customize different schedules for the Flows in this tab.
-
-Click ![edit](https://i.imgur.com/1Pphj6e.png) to [edit](#add-schedule-pop-up) the selected schedule, click ![del](https://i.imgur.com/Zyl7T6g.png) to delete the selected schedule.
-
-Click **[+ Add Schedule]** or **Edit** to open [Add Schedule Pop-Up](#add-schedule-pop-up):
-
-#### Add Schedule Pop-Up
-
-![add_schedule_popup](https://i.imgur.com/0HM5RUz.png)
-
-The operator can select Time Zone to run the Flow, Start Date (enter manually or click the 📅 icon to select start date from the date picker), Start and End Time.
-
-If the Flow needs to run on the specific days &mdash; select the **[In Range]** checkbox ☑ and then select on what days of the week the Flow must be active:
-
-![add_schedule_popup_range](https://i.imgur.com/k6QNFVo.png)
-
-Click the **[Save]** Button to create a new Flow or click the **[Cancel]** Button to discard changes.
-
-### Adding Test Player to the Flow
-
-The operator can add test player to the selected flow to test how it works.
-To do so:
-
-1. The operator must open the built-in Flow Editor and click the **[Test]** button
-
-2. Select test player from the list, click on it
-
-3. There will be a JSON with test player's properties on the next page.
-   Click the **[Start]** button to apply the flow to the selected player (to test on the casino's site using the test player's credentials) or click the **[Back]** button to select another test player:
-
-![test_flow_gif]
-
-## Clone Flow
-
-To clone the Flow &mdash; click [Clone] in the Flow context menu. You will see Clone Flow Pop-Up:
-
-![clone_flow_pop-up](https://i.imgur.com/7Rgr51k.png)
-
-The operator needs to change the Flow Name and select the Category of the New Flow or keep selected. Click [Clone] to create the new Flow or close the Pop-Up to cancel.
