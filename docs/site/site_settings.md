@@ -139,7 +139,7 @@ There is the universal search bar at the top of the table &mdash; enter at least
 | **Bonus Money radiobutton** | Active/Inactive &mdash; shows if the game is eligible to play using the player's bonus money. |
 | **Status** | The Game Status on the site &mdash; Active or Inactive. |
 | **Coefficient** | The Game coefficient, used in the turnover calculation.<p>Click to change, then click ☑ to the right to apply.</p> |
-| **Hide from Search radiobutton** | Active/Inactive &mdash; shows if the game is hidden from the search results. For example, if the game is for testing.|
+| **Hide from Search radiobutton** | Active/Inactive &mdash; shows if the game is hidden from the search results. For example, if the game is for testing. |
 | **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and Activate/Deactivate the game on the site. |
 
 ## Providers Management Settings

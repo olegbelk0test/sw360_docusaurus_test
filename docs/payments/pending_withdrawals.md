@@ -22,6 +22,7 @@ The operator can manage Pending Withdrawals under Pending Withdrawals sub-menu i
 
 | Column | Description |
 |-|-|
+| **☑** | Checkbox for mass selection &mdash; select several items to Approve, Decline, or Cancel them at once. |
 | **Initiated** | The Date and Time of the player payment, the format is yyyy-mm-dd hh:mm:ss. |
 | **Trx ID** | The unique ID of the transaction.<p>Hover on and click the icon to the right to copy the personal number to the clipboard.</p>Click to open the [Payment Details Page](/docs/players/player-profile/profile-payments-tab#transaction-details-page). |
 | **Player ID** | The Id of the player.<p>Hover on and click the icon to the right to copy the personal number to the clipboard.</p>Click to open the [Player Withdrawals Page](/docs/players/player-profile/profile-payments-tab). |

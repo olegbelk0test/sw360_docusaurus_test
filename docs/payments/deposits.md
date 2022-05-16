@@ -22,6 +22,7 @@ The operator can manage Deposits under Deposits sub-menu item at the Payments Se
 
 | Column | Description |
 |-|-|
+| **☑** | Checkbox for mass selection &mdash; select several items to Approve, Decline, or Cancel them at once. |
 | **Player Name** | The name of the player who did the deposit. |
 | **Player ID** | The Id of the player.<p>Hover on and click the icon to the right to copy the personal number to the clipboard.</p>Click to open the [Player Deposits Page](/docs/players/player-profile/profile-payments-tab). |
 | **Payment ID** | The unique ID of the payment.<p>Hover on and click the icon to the right to copy the personal number to the clipboard.</p>Click to open the [Payment Details Page](/docs/players/player-profile/profile-payments-tab#transaction-details-page). |
