@@ -37,8 +37,8 @@ Below, there is a Game Transaction Table that contains all the site game transac
 | **Cash Win** | The player's cash money wins. |
 | **Promo Bet** | The player's bonus money bet. |
 | **Promo Win** | The player's bonus money wins. |
-| **Free Bet Amount** | The player's free bet amount. |
-| **Free Bet Win** | The player's free bet win. |
+| **FS Bet** | The player's free spins bet or free bet. |
+| **FS Win** | The player's free spins/bet win. |
 | **Status** | The status of the transaction &mdash; *win*, *lost*, or *pending* (if the round is in progress). |
 | **Odds** | The odds of the player's bet, if free bet. |
 | **Ticket Type** | The type of the ticket, if free bet. |
