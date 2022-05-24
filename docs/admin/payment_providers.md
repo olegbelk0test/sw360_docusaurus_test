@@ -7,7 +7,7 @@ sidebar_label: Payment Providers Management
 
 ![payment_providers_tab](https://i.imgur.com/azKT2jE.png)
 
-Games Tab allows the Superadmin to browse all SW360 Payment Providers from the current site.
+Payment Providers Tab allows the Superadmin to browse all SW360 Payment Providers from the current site.
 
 | # | Field | Description |
 |-|-|-|

@@ -5,30 +5,30 @@ sidebar_label: Game Providers Management
 
 # Game Providers Management
 
-![game_providers_tab](https://i.imgur.com/dNRGwNt.png)
+![game_providers_tab](https://i.imgur.com/0f9fhk4.png)
 
 Game Providers Tab allows the Superadmin to manage SW360 Game Providers.
 
 | # | Field | Description |
 |-|-|-|
-| 1 | **Menu Item** | Game Providers Settings Tab is a sub-item under the Site Tab at the left menu bar. |
+| 1 | **Menu Item** | Game Providers Settings Tab is a sub-item under the Admin Tab at the left menu bar. |
 | 2 | **Game Providers Table** | The table with the list of the game providers, [more info below](#game-providers-table). |
-| 3 | **[Add Game Provider] Button** | Click this button to open [Add Game Provider window](#add-the-game-provider). |
-| 4 | **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and select [Edit](#edit-the-game-provider) or Disable/Enable the game provider on the back office. |
+| 3 | **[Add Game Providers] Button** | Click this button to open [Add Game Provider window](#add-the-game-provider). |
 
 # Game Providers Table
 
 | Column | Description |
 |-|-|
-| **ID** | Unique Game Provider ID. |
-| **Name** | Game Provider Name. Click to open [Edit Game Provider window](#edit-the-game-provider)|
+| **ID** | <p>Unique Game Provider ID.</p><p>Click to open [Edit Game Provider window](#edit-the-game-provider).</p><p>Hover on and click the ![copy](https://i.imgur.com/pdcUhnE.png) Copy button to the right to copy the provider ID to the clipboard.</p> |
+| **Name** | Game Provider Name. Click to open [Edit Game Provider window](#edit-the-game-provider). |
+| **Blocked Countries** | The list of the country codes for the countries in which games from the selected provider are blocked. |
 | **Game Provider Type** | Game Provider Name from the list of the platform supported providers. |
-| **Blocked Countries** | The list of the countries in which games from the selected provider are blocked. |
 | **# of Games** | The number of game provider games. |
+| **Nickname required** | Is the game provider nickname required at the casino site &mdash; true/false. |
 
 ### Add the Game Provider
 
-![add_gp](https://i.imgur.com/LBoPRn2.png)
+![add_gp](https://i.imgur.com/Go1m4Ak.png)
 
 The Superadmin can add new Game Providers and load the list of games for the provider using preformatted *csv file in this window:
 
@@ -38,28 +38,9 @@ The Superadmin can add new Game Providers and load the list of games for the pro
 
 ### Edit the Game Provider
 
-![edit_gp](https://i.imgur.com/DaR9jGw.png)
+![edit_gp](https://i.imgur.com/onq6gh6.png)
 
 The Superadmin can edit all game provider info, browse games and upload more games to the provider.
-To upload more games &mdash; click [**Add CSV file**] Button and select the necessary file to upload.
+To upload more games &mdash; click [**Add CSV file**] Button at the right and select the necessary file to upload.
 
     ❕ The existing game info in the table will be replaced by the game info with the same names in the *.csv file.
-
-# Games Management
-
-The operator can manage site games under Games Management tab at the Site Settings Section:
-
-![games_management](https://i.imgur.com/uttN3d8.png)
-
-There is the universal search bar at the top of the table &mdash; enter at least 2 symbols to begin the search.
-
-| Column | Description |
-|-|-|
-| **☑** | Checkboxes for mass selection &mdash; select different games to Activate/Deactivate them at once. |
-| **Game Name** | The Game Name as displayed on the site. |
-| **External ID** | The Game External ID. |
-| **Game Provider** | The Game Provider. |
-| **Status** | The Game Status on the site &mdash; Active or Inactive. |
-| **Coefficient** | The Game coefficient used in the turnover calculation. Click to change. |
-| **Thumbnail URL** | The relative URL to the game thumbnail at the CDN site. Click to change. |
-| **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and Activate/Deactivate the game on the site. |
