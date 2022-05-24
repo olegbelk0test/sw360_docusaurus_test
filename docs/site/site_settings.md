@@ -124,7 +124,7 @@ This section consists of player uploaded documents settings:
 
 This section consists of site games settings:
 
-![games_site_settings](https://i.imgur.com/7xxTYJo.png)
+![games_site_settings](https://i.imgur.com/7DbqCAE.png)
 
 There is the universal search bar at the top of the table &mdash; enter at least 2 symbols to begin the search.
 
@@ -139,6 +139,9 @@ There is the universal search bar at the top of the table &mdash; enter at least
 | **Bonus Money radiobutton** | Active/Inactive &mdash; shows if the game is eligible to play using the player's bonus money. |
 | **Status** | The Game Status on the site &mdash; Active or Inactive. |
 | **Coefficient** | The Game coefficient, used in the turnover calculation.<p>Click to change, then click ☑ to the right to apply.</p> |
+| **Jp Contribution Percent** | The percent to the jackpot from the winnings, if applicable.<p>Click to change, then click ☑ to the right to apply.</p> |
+| **Local JP Contribution Percent** | The The percent to the local jackpot from the winnings, if applicable.<p>Click to change, then click ☑ to the right to apply.</p> |
+| **Global JP Contribution Percent** | The percent to the global jackpot from the winnings, if applicable.<p>Click to change, then click ☑ to the right to apply.</p> |
 | **Hide from Search radiobutton** | Active/Inactive &mdash; shows if the game is hidden from the search results. For example, if the game is for testing. |
 | **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and Activate/Deactivate the game on the site. |
 
