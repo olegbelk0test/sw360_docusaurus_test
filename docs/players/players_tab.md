@@ -45,6 +45,7 @@ Below there is a table with the list of the players with columns as their attrib
 | **First Deposit Created** | The date and time when the player did the first deposit. The format is yyyy-mm-dd hh:mm:ss. |
 | **Validated All Documents** | Did the player validate all the documents &mdash; *true* or *false*. |
 | **Sub ID** | The Sub ID of the player, used for the traffic tracking. |
+| **Registered Product** | The type of the site on which the payment was made &mdash; *Casino* or *Sports*. |
 | **![player_edit_menu](https://i.imgur.com/HrALxrY.png)** | Click to open the context menu and select [Change Status](/docs/players/player-profile/profile-header#change-status-pop-up) or Edit (opens [Player Profile](/docs/players/player-profile/profile-overview)). |
 
 &ast; &mdash; *n/a* if data is not provided.

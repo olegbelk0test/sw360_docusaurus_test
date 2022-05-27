@@ -9,7 +9,7 @@ Deposits Tab consists all info about the deposits on the site.
 
 The operator can manage Deposits under Deposits sub-menu item at the Payments Section:
 
-![deposits](https://i.imgur.com/R7j57hg.png)
+![deposits](https://i.imgur.com/njWeXtN.png)
 
 | # | Field | Description |
 |-|-|-|
@@ -24,7 +24,7 @@ The operator can manage Deposits under Deposits sub-menu item at the Payments Se
 |-|-|
 | **☑** | Checkbox for mass selection &mdash; select several items to Approve, Decline, or Cancel them at once. |
 | **Player Name** | The name of the player who did the deposit. |
-| **Player ID** | The Id of the player.<p>Hover on and click the icon to the right to copy the personal number to the clipboard.</p>Click to open the [Player Deposits Page](/docs/players/player-profile/profile-payments-tab). |
+| **Personal Number** | The personal number of the player.<p>Hover on and click the icon to the right to copy the personal number to the clipboard.</p>Click to open the [Player Deposits Page](/docs/players/player-profile/profile-payments-tab). |
 | **Payment ID** | The unique ID of the payment.<p>Hover on and click the icon to the right to copy the personal number to the clipboard.</p>Click to open the [Payment Details Page](/docs/players/player-profile/profile-payments-tab#transaction-details-page). |
 | **Payment Method** | The Payment Method through which the player performed the payment: CreditCard, Bank Account, CNP, Visa, MasterCard, Mobile, Android/Google Pay, etc. |
 | **Provider** | The payment service provider through which the player performed the payment: TopPay, SafeCharge, PaySafeCard, etc. |
@@ -38,6 +38,7 @@ The operator can manage Deposits under Deposits sub-menu item at the Payments Se
 | **Campaign Name** | Promo Campaign Name, if applicable. Click to open the selected campaign. |
 | **Card Number** | The Number of the Card from which the player performed the payment, if applicable. |
 | **Name on a Card** | The Name on the Card from which the player performed the payment, if applicable. |
+| **Registered Product** | The type of the site on which the payment was made &mdash; *Casino* or *Sports*. |
 
 &ast; &mdash; *n/a* if data is not provided.
 

@@ -9,7 +9,7 @@ Withdrawals Tab consists all info about the Withdrawals on the site.
 
 The operator can manage Withdrawals under Withdrawals sub-menu item at the Payments Section:
 
-![Withdrawals](https://i.imgur.com/uCQTdu8.png)
+![Withdrawals](https://i.imgur.com/cVVswOB.png)
 
 | # | Field | Description |
 |-|-|-|
@@ -25,7 +25,7 @@ The operator can manage Withdrawals under Withdrawals sub-menu item at the Payme
 | **☑** | Checkbox for mass selection &mdash; select several items to Approve, Decline, or Cancel them at once. |
 | **Initiated** | The Date and Time of the player payment, the format is yyyy-mm-dd hh:mm:ss. |
 | **Trx ID** | The unique ID of the transaction.<p>Hover on and click the icon to the right to copy the personal number to the clipboard.</p>Click to open the [Payment Details Page](/docs/players/player-profile/profile-payments-tab#transaction-details-page). |
-| **Player ID** | The Id of the player.<p>Hover on and click the icon to the right to copy the personal number to the clipboard.</p>Click to open the [Player Withdrawals Page](/docs/players/player-profile/profile-payments-tab). |
+| **Personal Number** | The personal number of the player.<p>Hover on and click the icon to the right to copy the personal number to the clipboard.</p>Click to open the [Player Withdrawals Page](/docs/players/player-profile/profile-payments-tab). |
 | **Player Name** | The name of the player who did the Withdrawal. |
 | **Validated For Withdraw** | If the player if validated &mdash; *true* or *false*. |
 | **Pending Documents** | If the player has Pending Documents &mdash; *true* or *false*. |
@@ -41,6 +41,7 @@ The operator can manage Withdrawals under Withdrawals sub-menu item at the Payme
 | **Name on a Card** | The Name on the Card to which the player performed the payment, if applicable. |
 | **Bank Name** | The Name of the Bank to which the player performed the payment, if applicable. |
 | **Bank Number** | The Bank Number to  which the player performed the payment, if applicable. |
+| **Registered Product** | The type of the site on which the payment was made &mdash; *Casino* or *Sports*. |
 
 &ast; &mdash; *n/a* if data is not provided.
 ❕ If the player makes a withdrawal &mdash; their Bonus balance will be canceled.

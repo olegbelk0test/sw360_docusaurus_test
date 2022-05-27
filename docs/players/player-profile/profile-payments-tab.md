@@ -50,7 +50,7 @@ The Page consists of 3 sections:
 2. **[Transaction Tracking](#transaction-details-page-transaction-tracking)** &mdash; tracking info of the transaction money.
 3. **[Wallet Transactions](#transaction-details-page-wallet-transactions)** &mdash; the player's wallet transactions regarding the viewed transaction.
 
-There is the transaction header on top of the page with the status of the transaction, player information, registration and login data.
+There is the transaction header on top of the page with the clickable player personal number (click to open [player profile](/docs/players/player-profile/profile-general-tab)), status of the transaction, player information, registration and login data.
 ### Transaction Details Page. General Transaction Information
 
 The operator can view the transaction detailed attributes on this page:

@@ -33,7 +33,7 @@ The operator can manage campaigns under Campaigns sub-menu item at the Engagemen
 
 ## Create the Campaign
 
-![add_campaign](https://i.imgur.com/fVounUL.png)
+![add_campaign](https://i.imgur.com/Tq04FSJ.png)
 
 The operator can create new Campaigns and select audiences, add different conditions to the selected audiences, schedule the campaign, add campaign rewards, and see the list of the players who triggered the campaign reward.
 
@@ -46,7 +46,7 @@ There are 4 tabs to operate while creating the campaign:
 
 ### Campaign General Tab
 
-![campaign_general](https://i.imgur.com/iKxSLc7.png)
+![campaign_general](https://i.imgur.com/DfnKsNI.png)
 
 The operator can customize general campaign settings in this tab:
 
@@ -56,10 +56,11 @@ The operator can customize general campaign settings in this tab:
 | 2 | **Name** | Enter Campaign Name. |
 | 3 | **Description** | Enter Campaign Description. |
 | 4 | **Status** | Select Campaign Status.<p>In **Create** Mode only *Draft* Status is available.</p><p>In **Edit** Mode the operator can select *Active, Draft and Inactive* Statuses.</p> |
-| 5 | **Type** | Select Campaign Type:<p>Deposit &mdash; the campaign based on actions with player deposits</p><p>Round &mdash; the campaign based on actions with games</p><p>Update &mdash; the campaign based on actions with updating the player profile</p><p>Registration &mdash; the campaign based on actions with completing the registration on site</p><p>Login &mdash; the campaign based on actions with logging in</p><p>Withdraw &mdash; the campaign based on actions with withdrawals</p><p>Cancel Withdraw &mdash; the campaign based on actions with cancelling withdrawals</p><p>Schedule &mdash; the campaign based on the player's schedule.</p><p>Mini game &mdash; the campaign based on the [mini game with predefined Visibility Condition](#mini-games).</p> |
+| 5 | **Type** | Select Campaign Type:<p>Deposit &mdash; the campaign based on actions with player deposits</p><p>Round &mdash; the campaign based on actions with games</p><p>Update &mdash; the campaign based on actions with updating the player profile</p><p>Registration &mdash; the campaign based on actions with completing the registration on site</p><p>Login &mdash; the campaign based on actions with logging in</p><p>Withdraw &mdash; the campaign based on actions with withdrawals</p><p>Cancel Withdraw &mdash; the campaign based on actions with cancelling withdrawals</p><p>Schedule &mdash; the campaign based on the player's schedule.</p><p>Mini game &mdash; the campaign based on the [mini game with predefined Visibility Condition](#mini-games).</p><p>External Engagement Tool &mdash; the campaign based on the external engagement tools.</p> |
 | 6 | **Product** | Select Product to run the campaign to: *Casino* or *Sports*. |
 | 7 | **Visibility Conditions** | If the **Campaign is visible for the player** radiobutton is active &mdash; the campaign is visible for the player on the site Promo Section.<p>If it is not active &mdash; the player will receive notification and the campaign rewards only after completing the conditions to get it.</p><p>Click [+ Add Condition] to add additional visibility conditions for the campaign from the [predefined conditions](#predefined-conditions). Choose different options or enter values for the selected conditions:</p><p>![add_conditions_gif](https://i.imgur.com/sNWshIm.gif)</p><p>The campaign will be visible if the player suits to selected conditions.</p><p>To delete the condition &mdash; press [x] near the needed row.</p> |
-| 8 | **Trigger Conditions** | Click [+ Add Condition] to add conditions that will trigger the campaign for the players when they complete these conditions. Choose Options or enter values for the selected audience:<p>![add_audience_gif](https://i.imgur.com/OAjkIkL.gif)</p><p>To delete the audience &mdash; press [x] near the needed row.</p> |
+| 8 | **Evaluate players** Button | Click this button to calculate how many players the campaign will be available to. |
+| 9 | **Trigger Conditions** | Click [+ Add Condition] to add conditions that will trigger the campaign for the players when they complete these conditions. Choose Options or enter values for the selected audience:<p>![add_audience_gif](https://i.imgur.com/OAjkIkL.gif)</p><p>To delete the audience &mdash; press [x] near the needed row.</p> |
 | 10 | **Cancel** | Click to cancel the changes and return to the Campaigns Tab. |
 | 11 | **Save** | Click to save the Campaign. |
 

@@ -44,7 +44,7 @@ The operator can add the games to the game category by this methods:
 * Click the ![upload_games](https://i.imgur.com/WBSX3dr.png) **Upload Games** button and select *.csv file to upload
 * Click **[+ Add Game]** link to add the games to the opened game category:
 
-![add_games_to_category](https://i.imgur.com/VECR8G2.png)
+![add_games_to_category](https://i.imgur.com/Pf9E9fR.png)
 
 Choose games to add to the category by selecting checkboxes ☑ at the left of the needed game.
 

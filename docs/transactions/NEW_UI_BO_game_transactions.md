@@ -9,7 +9,7 @@ Game Transactions Tab is the list of game round actions. Game Transaction is cre
 
 The operator can view Game Transactions as a single section at the BO:
 
-![game_transactions](https://i.imgur.com/vjkK5gv.png)
+![game_transactions](https://i.imgur.com/K5zyOi5.png)
 
 On top of the page, there are Filters Button, Table Settings, and a universal search bar.
 
@@ -25,26 +25,31 @@ Below, there is a Game Transaction Table that contains all the site game transac
 |-|-|
 | **Started** | Date&Time starting the game round. |
 | **Finished** | Date&Time finishing the game round. |
-| **User ID** |<p>The ID of the player for whom the transaction was carried out.</p><p>Click to open [Wallet Transactions for this player](/docs/players/player-profile/profile-wallet-transactions-tab).</p>|
+| **Personal Number** |<p>The personal number of the player for whom the transaction was carried out.</p><p>Click to open [Wallet Transactions for this player](/docs/players/player-profile/profile-wallet-transactions-tab).</p>|
 | **Round ID** | <p>The ID of the round for which the transaction was carried out.</p><p>Click to open the [Transaction Details page](#transaction-details-page).</p><p>Hover on and click the icon to the right to copy the Round ID to the clipboard.</p>|
 | **Game Name** | The name of the game played. |
-| **Provider** | The provider of the game played. |
-| **Vendor** | The vendor of the game played. |
+| **Integration** | The integration/provider of the game played. |
+| **Vendor** | The vendor name of the game played. |
 | **Total Bet** | The player's total bet. |
 | **Total Win** | The player's total win. |
 | **Potential Winning** | The player's Potential Winning if the round was lost. |
-| **Cash Bet** | The player's cash money bet. |
-| **Cash Win** | The player's cash money wins. |
-| **Promo Bet** | The player's bonus money bet. |
-| **Promo Win** | The player's bonus money wins. |
-| **FS Bet** | The player's free spins bet or free bet. |
-| **FS Win** | The player's free spins/bet win. |
+| **Cash Bet** | The player's cash money bet, if applicable. |
+| **Cash Win** | The player's cash money wins, if applicable. |
+| **Promo Bet** | The player's bonus money bet, if applicable. |
+| **Promo Win** | The player's bonus money wins, if applicable. |
+| **FS Bet** | The player's free spins bet, if applicable. |
+| **FS Win** | The player's free spins wins, if applicable. |
+| **Free Bet Amount** | The player's free bet amount, if applicable. |
+| **Free Bet Win** | The player's free bet wins, if applicable. |
 | **Status** | The status of the transaction &mdash; *win*, *lost*, or *pending* (if the round is in progress). |
 | **Odds** | The odds of the player's bet, if free bet. |
 | **Ticket Type** | The type of the ticket, if free bet. |
 | **IP** | The IP of the player. |
 | **Product** | The Product player played to: *Casino* or *Sports*. |
+| **Turnover Amount** | The Turnover amount for the current transaction. |
 | **Total Jackpot Contribution** | The player's total jackpot contribution, if applicable. |
+| **Total Local Jackpot Contribution** | The player's total local jackpot contribution, if applicable. |
+| **Total Global Jackpot Contribution** | The player's total global jackpot contribution, if applicable. |
 | **Total Cash Jackpot Contribution** | The player's cash money jackpot contribution, if applicable. |
 | **Total Bonus Jackpot Contribution** | The player's bonus money jackpot contribution, if applicable. |
 | **Total Jackpot Win** | The player's total jackpot win. |
