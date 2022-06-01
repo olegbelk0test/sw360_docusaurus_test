@@ -31,6 +31,7 @@ The Game Transactions Tab consists of the list of the player's information about
 | **Free Bet Amount** | The player's free bet amount, if applicable. |
 | **Free Bet Win** | The player's free bet wins, if applicable. |
 | **Status** | The status of the transaction &mdash; *win*, *lost*, or *pending* (if the round is in progress). |
+| **Cash Out** | Boolean, true/false, if the player cashed out the money from the sport transaction. |
 | **Odds** | The odds of the player's bet, if free bet. |
 | **Ticket Type** | The type of the ticket, if free bet. |
 | **IP** | The IP of the player. |
