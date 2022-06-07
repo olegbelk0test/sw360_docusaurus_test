@@ -25,7 +25,7 @@ Below, there is a Game Transaction Table that contains all the site game transac
 |-|-|
 | **Started** | Date&Time starting the game round. |
 | **Finished** | Date&Time finishing the game round. |
-| **Personal Number** |<p>The personal number of the player for whom the transaction was carried out.</p><p>Click to open [Wallet Transactions for this player](/docs/players/player-profile/profile-wallet-transactions-tab).</p>|
+| **Personal Number** |<p>The personal number of the player for whom the transaction was carried out.</p><p>Click to open [Wallet Transactions for this player](/docs/players/player-profile/profile-wallet-transactions-tab).</p><p>Hover on and click the icon to the right to copy the Personal Number to the clipboard.</p>|
 | **Round ID** | <p>The ID of the round for which the transaction was carried out.</p><p>Click to open the [Transaction Details page](#transaction-details-page).</p><p>Hover on and click the icon to the right to copy the Round ID to the clipboard.</p>|
 | **Game Name** | The name of the game played. |
 | **Integration** | The integration/provider of the game played. |
