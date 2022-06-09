@@ -58,7 +58,7 @@ The operator can filter the table by Date and Action &mdash; select needed value
 | Field | Description |
 |-|-|
 | **Created** | The date and time of the action. The format is yyyy-mm-dd hh:mm:ss. |
-| **Action** | The type of the action: *Self Exclusion*, *Self Close*, *Cool Off*, *Verification*, *Name Verified*, *Address Verified*, *Age Verified*, *User Verified*, *Modify Limit*. |
+| **Action** | The type of the action: *Self Exclusion*, *Closed*, *Cool Off*, *Verification*, *Name Verified*, *Address Verified*, *Age Verified*, *User Verified*, *Modify Limit*. |
 
 ### Audit Tab. Operation Audit Table
 
