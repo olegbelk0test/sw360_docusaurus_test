@@ -8,7 +8,7 @@ sidebar_label: Backoffice Overall Functionality Overview
 ## Filters
 
 The filters are used for the selection of some data on the page.
-The operator can sort and search in the tables by the filters.
+The operator can sort and search the tables by the filters.
 Filtering is possible almost at all of the tables by all of the columns.
 
 ### Filtering by columns
@@ -38,7 +38,7 @@ To reset the table simply delete all the filters one by one:
 
 ## Presets
 
-Preset is the saved set of filters, table columns and sorting. It can be different for each table.
+Preset is the saved set of filters, table columns, and sorting. It can be different for each table.
 The operator can view, apply to the page, save, update and delete filter presets.
 
 ### Apply preset
@@ -69,7 +69,7 @@ To save the current preset:
 To update the existing preset:
 
 1. Click the **[Presets]** button on the top right of the table
-2. Select needed preset, click the ![update_preset](https://i.imgur.com/Wn24sK8.png) button and choose update options at the popup:
+2. Select the needed preset, click the ![update_preset](https://i.imgur.com/Wn24sK8.png) button and choose update options at the popup:
 
 ![update_preset.gif](https://i.imgur.com/FD0VJG4.gif)
 ### Delete preset
@@ -77,14 +77,14 @@ To update the existing preset:
 To delete the existing preset:
 
 1. Click the **[Presets]** button on the top right of the table
-2. Select needed preset, click the ![delete_preset](https://i.imgur.com/HvRuX2f.png) button and confirm deletion at the popup:
+2. Select the needed preset, click the ![delete_preset](https://i.imgur.com/HvRuX2f.png) button and confirm deletion at the popup:
 
 ![delete_preset.gif](https://i.imgur.com/OGkm1ch.gif)
 
 ## Table Sorting
 
 The operator can sort the content of any table by any column.
-To do that click on the Column name or hover on the column name, click on the ![sort](https://i.imgur.com/HrALxrY.png) button and choose the sorting direction
+To do that click on the Column name or hover on the column name, click on the ![sort](https://i.imgur.com/HrALxrY.png) button, and choose the sorting direction
 The arrow right to the column name shows the sorting order:
 
 * ⬆ — ascending order
