@@ -22,4 +22,4 @@ General Tab consists of the general information about the player:
 | 7 | **Discard Changes** button | Click to discard entered changes. |
 | 8 | **Save** button | Click to save changes. |
 
-  &ast; &mdash; Residential Address is visible if the corresponding checkbox is active at the [Site Settings #14](/docs/site/site_settings#general-settings).
+  &ast; &mdash; Residential Address is visible if the corresponding checkbox is active at the [Site Settings](/docs/site/site_settings#general-settings).

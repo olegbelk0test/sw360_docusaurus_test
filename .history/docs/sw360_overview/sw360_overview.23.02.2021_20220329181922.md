@@ -47,7 +47,7 @@ SW360 is based on several components:
   * **Audit Log** &mdash; the list of the requests and responses
   * **Users and Roles** &mdash; the tools to set the different roles and invite users to operate the SW360 Back Office
   * **Game Categories** &mdash; the list of the site's game categories, is used to operate the games within the category
-* **Admin** &mdash; the tools for the Superadmin of the SW360 Back Office:
+* **Admin** &mdash; the tools for the Superadmin of the SW260 Back Office:
   * **Games** &mdash; the list of all the site's games with the ability to activate/deactivate them
   * **Payment Provider Setting**s &mdash; the settings to configure the site's payment providers
   * **Game Provider Settings** &mdash; the settings to configure the site's game providers
