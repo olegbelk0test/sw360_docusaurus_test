@@ -1,11 +1,11 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 sidebar_label: Game Transactions Tab
 ---
 
 # Game Transactions Tab
 
-Game Transactions Tab is the list of game round actions. Game Transaction is created on each game round request &mdash; one row is for the one game transaction (round). It may contain wallet operations.
+Game Transactions Tab is the list of game round actions. Game Transaction is created on each game round request&mdash;one row is for the one game transaction (round). It may contain wallet operations.
 
 The operator can view Game Transactions as a single section at the BO:
 
@@ -15,7 +15,7 @@ On top of the page, there are Filters Button, Table Settings, and a universal se
 
 The operator can filter the table by every column. Click the **[+Add Filters]** button to select filters.
 
-The operator can search game transactions by Round ID &mdash; type or paste the needed value to the search bar and press **Enter**.
+The operator can search game transactions by Round ID&mdash;type or paste the needed value to the search bar and press **Enter**.
 
 Below, there is a Game Transaction Table that contains all the site game transactions sorted by descending *Finished Time* by default.
 
@@ -41,7 +41,7 @@ Below, there is a Game Transaction Table that contains all the site game transac
 | **FS Win** | The player's free spins wins, if applicable. |
 | **Free Bet Amount** | The player's free bet amount, if applicable. |
 | **Free Bet Win** | The player's free bet wins, if applicable. |
-| **Status** | The status of the transaction &mdash; *win*, *lost*, or *pending* (if the round is in progress). |
+| **Status** | The status of the transaction&mdash;*win*, *lost*, or *pending* (if the round is in progress). |
 | **Cash Out** | Boolean, true/false, if the player cashed out the money from the sport transaction. |
 | **Odds** | The odds of the player's bet, if free bet. |
 | **Ticket Type** | The type of the ticket, if free bet. |
@@ -57,7 +57,7 @@ Below, there is a Game Transaction Table that contains all the site game transac
 | **Total Cash Jackpot Win** | The player's bonus money jackpot win. |
 | **Total Bonus Jackpot Win** | The player's bonus money jackpot win. |
 
-&ast; &mdash; *n/a* if data is not provided.
+&ast;&mdash;*n/a* if data is not provided.
 
 ## Transaction Details Page
 

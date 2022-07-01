@@ -25,13 +25,13 @@ Below, there is a Wallet Transaction Table with an infinite scroll that contains
 | **Created Date** | Date&Time of the transaction. |
 | **Account Name** | The ID of the player for whom the transaction was carried out.<p>Click to open [Wallet Transactions for this player](/docs/players/player-profile/profile-wallet-transactions-tab).</p> |
 | **Transaction Type** | The type of the transaction. [More info below](#transaction-types). |
-| **Amount** | The Amount of the money in the transaction.<p>If the color of the amount is red &mdash; the money is taken from the player.</p> |
+| **Amount** | The Amount of the money in the transaction.<p>If the color of the amount is red&mdash;the money is taken from the player.</p> |
 | **Balance Before** | The player balance before the transaction. |
 | **Balance After** | The player balance after the transaction. |
-| **Account Type** | The type of the account of the transaction:<p>real &mdash; real money account,</p><p>bonus &mdash; bonus money account.</p> |
+| **Account Type** | The type of the account of the transaction:<p>real&mdash;real money account,</p><p>bonus&mdash;bonus money account.</p> |
 | **Game ID** | The ID of the game for which the transaction was carried out. |
 
-&ast; &mdash; *n/a* if data is not provided.
+&ast;&mdash;*n/a* if data is not provided.
 
 ### Transaction Types
 
@@ -54,7 +54,7 @@ Below, there is a Wallet Transaction Table with an infinite scroll that contains
 | **releaseFreeSpinsAsBonus** | Free spins winnings to the player's bonus account. The amount is positive, contains the amount of the bonus money. |
 | **releaseFreeSpinsAsReal** | Free spins winnings to the player's real account. The amount is positive, contains the amount of the cash money. |
 | **returnMaxCapping** | The total cash amount we give to the player from the bonus he wins. MaxCapping parameter restricts the total cash amount we give to players from the release bonus. |
-| **releaseBonus** | The cash amount we give to the player from the bonus he wins:<p>if the **Account Type** field is *bonus* &mdash; the player bonus account is reset to zero,</p><p>if the **Account Type** field is *real* &mdash; the money converts from the player's bonus account to the real one.</p> |
+| **releaseBonus** | The cash amount we give to the player from the bonus he wins:<p>if the **Account Type** field is *bonus*&mdash;the player bonus account is reset to zero,</p><p>if the **Account Type** field is *real*&mdash;the money converts from the player's bonus account to the real one.</p> |
 | **voidBonus** | Expire bonus. The amount is negative, contains how much bonus money was revoked after the expiration date. |
 | **voidFreeSpins** | Expire free spins. The amount is negative, contains how much Free Spins was revoked after the expiration date. |
 | **revokeAccount** | Manual revoke of Free Spins or Bonus account. The amount is negative, contains how much was revoked. |
@@ -63,5 +63,5 @@ Below, there is a Wallet Transaction Table with an infinite scroll that contains
 | **incrementTurnOver** | Contains information if the player's TurnOver was changed. Always zero. |
 | **reimbursement** | The amount contains insufficient funds if the player has not enough money to refund one of his winnings. Only for Sport. |
 | **revokeWin** | The amount of winning money if:<p>the player has an incomplete round with a bet made from his bonus account,</p><p>the operator revoked this bonus amount,</p><p>the player continues the round and wins from a non-existing bonus account.</p> |
-| **refundReleaseFreeSpins** | The amount of refund for the round after the successful win. Only for the Sports games, if this was a transaction for freeBet that was released &mdash; we restore the freeBet account and refund freeBet winning to the bonus account. |
-| **refundReleaseFreeSpinsAsReal** | The amount of refund for the round after the successful win. Only for the Sports games, if this was a transaction for freeBet that was released &mdash; we restore the freeBet account and refund freeBet winning to the real money. |
+| **refundReleaseFreeSpins** | The amount of refund for the round after the successful win. Only for the Sports games, if this was a transaction for freeBet that was released&mdash;we restore the freeBet account and refund freeBet winning to the bonus account. |
+| **refundReleaseFreeSpinsAsReal** | The amount of refund for the round after the successful win. Only for the Sports games, if this was a transaction for freeBet that was released&mdash;we restore the freeBet account and refund freeBet winning to the real money. |

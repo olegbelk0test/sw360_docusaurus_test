@@ -61,8 +61,8 @@ To save the current preset:
 
 ![save_preset.gif](https://i.imgur.com/4zR7qhD.gif)
 
-* If you create the presets on user level &mdash; only you can see them'
-* If you create the presets on site level &mdash; you and other site operators can see them.
+* If you create the presets on user level&mdash;only you can see them'
+* If you create the presets on site level&mdash;you and other site operators can see them.
 
 ### Update preset
 

@@ -13,9 +13,9 @@ The Validation Tab consists of the player uploaded documents and personal data:
 
 The Validation Tab consists of 3 sections:
 
-1. [Player Documents](#validation-tab-player-documents-section) &mdash; upload and approve players documents, and fill in the player personal data.
-2. [Source of Funds (SoF)](#validation-tab-source-of-funds-sof-section) &mdash; manage the player sources of funds information.
-3. [Public Person (PEP)](#validation-tab-public-person-pep-section) &mdash; manage the player information if the player is the public person.
+1. [Player Documents](#validation-tab-player-documents-section)&mdash;upload and approve players documents, and fill in the player personal data.
+2. [Source of Funds (SoF)](#validation-tab-source-of-funds-sof-section)&mdash;manage the player sources of funds information.
+3. [Public Person (PEP)](#validation-tab-public-person-pep-section)&mdash;manage the player information if the player is the public person.
 
 ### Validation Tab. Player Documents Section
 
@@ -26,7 +26,7 @@ The operator can browse, upload, view, and verify player documents through this 
 | # | Field | Description |
 |-|-|-|
 | 1.1 | **Request Documents** Button<p>(still in development)</p> | <p>Click to send to the player documents request by email.</p><p>Select in the opened pop-up the needed document types, add the optional message to the player, and confirm the request:</p><p>![request_docs.gif](https://i.imgur.com/ouffJjl.gif)</p> |
-| 1.2 | **Pending Documents previews** | The previews of the player's documents with the statuses on the top right:<p>⏳ &mdash; uploaded, pending</p><p>✔ &mdash; approved</p><p>❌ &mdash; rejected, expired.</p><p>Click on the preview to open it (1.2).</p><p>Click the **[+Add Document]** button to upload a new player's document in the pop-up window:</p><p>![upload-doc-kyc](https://i.imgur.com/Z94mKtm.png)</p><p>The operator can upload the document, choose its type and side.</p><p>Click [Add] to upload the document, or close the pop-up, or click [Discard Changes] and close the pop-up to cancel.</p> |
+| 1.2 | **Pending Documents previews** | The previews of the player's documents with the statuses on the top right:<p>⏳&mdash;uploaded, pending</p><p>✔&mdash;approved</p><p>❌&mdash;rejected, expired.</p><p>Click on the preview to open it (1.2).</p><p>Click the **[+Add Document]** button to upload a new player's document in the pop-up window:</p><p>![upload-doc-kyc](https://i.imgur.com/Z94mKtm.png)</p><p>The operator can upload the document, choose its type and side.</p><p>Click [Add] to upload the document, or close the pop-up, or click [Discard Changes] and close the pop-up to cancel.</p> |
 | 1.3 | **Document Image** | The selected document image.<p>Hover on to show additional info for quick check player details:</p><p>![kyc-hover-on-doc](https://i.imgur.com/cDFHYhh.png)</p><p>Click to open the pop-up with the big image. Click again to enlarge the image and navigate the mouse to scroll through the image:</p><p>![kyc-image-big.gif](https://i.imgur.com/QiyZSgR.gif)</p> |
 | 1.4 | **Document Type** | Choose the type of the document from [the list](#document-types). |
 | 1.5 | **Document Source** | Choose *backoffice* or *player*. |
