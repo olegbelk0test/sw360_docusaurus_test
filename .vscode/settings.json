@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/Thumbs.db": true
+    },
+    "explorerExclude.backup": null,
+    "vale.valeCLI.config": "C:\\Users\\Oleg.Belkin\\Documents\\docusaurus-test\\test\\sw360_docusaurus_test\\vale-boilerplate",
+    "vale.valeCLI.path": "cusaurus-test\\test\\sw360_docusaurus_test\\vale-boilerplate",
+    "vale.core.useCLI": true
+}

@@ -1,11 +1,11 @@
 ---
-sidebar_position: 2
-sidebar_label: New Wallet Transactions Tab
+sidebar_position: 1
+sidebar_label: Wallet Transactions Tab
 ---
 
-# New Wallet Transactions Tab
+# Wallet Transactions Tab
 
-Wallet Transactions reflect all changes made over the player wallet accounts.
+Wallet Transactions Tab reflect all changes made over the player wallet accounts.
 
 The operator can view Wallet Transactions as a single section at the BO:
 
